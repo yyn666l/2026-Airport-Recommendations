@@ -1,0 +1,1393 @@
+{
+  "schemaVersion": 1,
+  "repositoryCheckedOn": "2026-09-26",
+  "sourceSnapshot": "2026-08-23",
+  "scope": "30 家在公开来源快照中可核实到独立官网、且未被该来源列为停运的服务。status 不等于从本地实测订阅可用。",
+  "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+  "records": [
+    {
+      "slug": "dongligang",
+      "name": "动力港",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/dongligang/",
+      "minimumMonthly": "¥8",
+      "coupon": null,
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": "70",
+      "editorScore": "3.2 / 5（3 项计分）",
+      "independentTest": "❌ 无",
+      "test": {
+        "regions": []
+      },
+      "unlock": null,
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/dongligang.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "pinhaolian",
+      "name": "拼好连",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/pinhaolian/",
+      "minimumMonthly": "¥9.9",
+      "coupon": null,
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": null,
+      "editorScore": "数据不足，不给分",
+      "independentTest": "❌ 无",
+      "test": null,
+      "unlock": null,
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/pinhaolian.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "kexinyun",
+      "name": "可信云",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/kexinyun/",
+      "minimumMonthly": "¥15",
+      "coupon": "`KEXIN85`",
+      "discounted": "¥12.75",
+      "couponConditions": "KEXIN85 全场 85 折。另有年付专属 TRUST2026（80 折），仅适用于年付，不适用月付",
+      "nodes": "50 / 50",
+      "editorScore": "4.5 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-20 21:15",
+        "entry": "A-杭州电信@1Gbps",
+        "regions": [
+          {
+            "region": "香港（10 个节点中位）",
+            "medianDownload": "121.55 MB/s",
+            "medianLatency": "38 ms"
+          },
+          {
+            "region": "台湾（5 个节点中位）",
+            "medianDownload": "151.88 MB/s",
+            "medianLatency": "46 ms"
+          },
+          {
+            "region": "日本（10 个节点中位）",
+            "medianDownload": "86.63 MB/s",
+            "medianLatency": "90.5 ms"
+          },
+          {
+            "region": "新加坡（5 个节点中位）",
+            "medianDownload": "64.02 MB/s",
+            "medianLatency": "67 ms"
+          },
+          {
+            "region": "美国（5 个节点中位）",
+            "medianDownload": "69.1 MB/s",
+            "medianLatency": "193 ms"
+          },
+          {
+            "region": "韩国（5 个节点中位）",
+            "medianDownload": "97.57 MB/s",
+            "medianLatency": "127 ms"
+          },
+          {
+            "region": "英国（5 个节点中位）",
+            "medianDownload": "52.84 MB/s",
+            "medianLatency": "195 ms"
+          },
+          {
+            "region": "德国（5 个节点中位）",
+            "medianDownload": "124.42 MB/s",
+            "medianLatency": "219 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "chatgpt": "✅ 通过",
+        "gemini": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/kexinyun.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "kuaili",
+      "name": "快狸",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/kuaili/",
+      "minimumMonthly": "¥15",
+      "coupon": null,
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": "38 / 38",
+      "editorScore": "4.4 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-19 21:28",
+        "entry": "A-南京联通@2Gbps",
+        "regions": [
+          {
+            "region": "香港（8 个节点中位）",
+            "medianDownload": "91.02 MB/s",
+            "medianLatency": "37.5 ms"
+          },
+          {
+            "region": "台湾（4 个节点中位）",
+            "medianDownload": "107.63 MB/s",
+            "medianLatency": "50 ms"
+          },
+          {
+            "region": "日本（8 个节点中位）",
+            "medianDownload": "63.52 MB/s",
+            "medianLatency": "82.5 ms"
+          },
+          {
+            "region": "新加坡（4 个节点中位）",
+            "medianDownload": "73.71 MB/s",
+            "medianLatency": "80 ms"
+          },
+          {
+            "region": "美国（4 个节点中位）",
+            "medianDownload": "134.21 MB/s",
+            "medianLatency": "186.5 ms"
+          },
+          {
+            "region": "韩国（3 个节点中位）",
+            "medianDownload": "57.36 MB/s",
+            "medianLatency": "142 ms"
+          },
+          {
+            "region": "英国（4 个节点中位）",
+            "medianDownload": "100.64 MB/s",
+            "medianLatency": "215 ms"
+          },
+          {
+            "region": "德国（3 个节点中位）",
+            "medianDownload": "125.21 MB/s",
+            "medianLatency": "228 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "chatgpt": "✅ 通过",
+        "gemini": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/kuaili.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "sujie",
+      "name": "速界",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/sujie/",
+      "minimumMonthly": "¥15",
+      "coupon": "`sj888`",
+      "discounted": "¥12.75",
+      "couponConditions": "sj888 是节点故障补偿码，**仅限续费用户**，且官方标明限时 2 个月，新用户不适用",
+      "nodes": "52 / 52",
+      "editorScore": "4.5 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-19 21:45",
+        "entry": "A-福州电信@2Gbps",
+        "regions": [
+          {
+            "region": "香港（12 个节点中位）",
+            "medianDownload": "95.6 MB/s",
+            "medianLatency": "37 ms"
+          },
+          {
+            "region": "台湾（5 个节点中位）",
+            "medianDownload": "95.12 MB/s",
+            "medianLatency": "50 ms"
+          },
+          {
+            "region": "日本（10 个节点中位）",
+            "medianDownload": "99.38 MB/s",
+            "medianLatency": "78.5 ms"
+          },
+          {
+            "region": "新加坡（5 个节点中位）",
+            "medianDownload": "92.19 MB/s",
+            "medianLatency": "69 ms"
+          },
+          {
+            "region": "美国（5 个节点中位）",
+            "medianDownload": "70.86 MB/s",
+            "medianLatency": "179 ms"
+          },
+          {
+            "region": "韩国（5 个节点中位）",
+            "medianDownload": "106.64 MB/s",
+            "medianLatency": "117 ms"
+          },
+          {
+            "region": "英国（5 个节点中位）",
+            "medianDownload": "107.67 MB/s",
+            "medianLatency": "207 ms"
+          },
+          {
+            "region": "德国（5 个节点中位）",
+            "medianDownload": "79.15 MB/s",
+            "medianLatency": "204 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "chatgpt": "✅ 通过",
+        "gemini": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/sujie.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "edgenova",
+      "name": "edgenova",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/edgenova/",
+      "minimumMonthly": "¥15",
+      "coupon": "`EN888`",
+      "discounted": "¥12.75",
+      "couponConditions": "EN888 是节点故障补偿码，**仅限续费用户**，且官方标明限时 2 个月，新用户不适用",
+      "nodes": "42 / 42",
+      "editorScore": "4.5 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-21 21:40",
+        "entry": "A-北京电信@2Gbps",
+        "regions": [
+          {
+            "region": "香港（10 个节点中位）",
+            "medianDownload": "114.16 MB/s",
+            "medianLatency": "39 ms"
+          },
+          {
+            "region": "台湾（4 个节点中位）",
+            "medianDownload": "128.59 MB/s",
+            "medianLatency": "48.5 ms"
+          },
+          {
+            "region": "日本（8 个节点中位）",
+            "medianDownload": "85.48 MB/s",
+            "medianLatency": "82.5 ms"
+          },
+          {
+            "region": "新加坡（4 个节点中位）",
+            "medianDownload": "104.55 MB/s",
+            "medianLatency": "75.5 ms"
+          },
+          {
+            "region": "美国（4 个节点中位）",
+            "medianDownload": "108.04 MB/s",
+            "medianLatency": "167.5 ms"
+          },
+          {
+            "region": "韩国（4 个节点中位）",
+            "medianDownload": "96.51 MB/s",
+            "medianLatency": "132.5 ms"
+          },
+          {
+            "region": "英国（4 个节点中位）",
+            "medianDownload": "98.87 MB/s",
+            "medianLatency": "207 ms"
+          },
+          {
+            "region": "德国（4 个节点中位）",
+            "medianDownload": "86.65 MB/s",
+            "medianLatency": "213.5 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "chatgpt": "✅ 通过",
+        "gemini": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/edgenova.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "guangsuyun",
+      "name": "光速云",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/guangsuyun/",
+      "minimumMonthly": "¥17",
+      "coupon": null,
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": "48 / 48",
+      "editorScore": "4.3 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-20 21:24",
+        "entry": "A-上海联通@2Gbps",
+        "regions": [
+          {
+            "region": "香港（10 个节点中位）",
+            "medianDownload": "123.1 MB/s",
+            "medianLatency": "36.5 ms"
+          },
+          {
+            "region": "台湾（5 个节点中位）",
+            "medianDownload": "81.53 MB/s",
+            "medianLatency": "51 ms"
+          },
+          {
+            "region": "日本（10 个节点中位）",
+            "medianDownload": "90.01 MB/s",
+            "medianLatency": "77 ms"
+          },
+          {
+            "region": "新加坡（5 个节点中位）",
+            "medianDownload": "97.88 MB/s",
+            "medianLatency": "68 ms"
+          },
+          {
+            "region": "美国（5 个节点中位）",
+            "medianDownload": "89.08 MB/s",
+            "medianLatency": "172 ms"
+          },
+          {
+            "region": "韩国（4 个节点中位）",
+            "medianDownload": "94.11 MB/s",
+            "medianLatency": "120 ms"
+          },
+          {
+            "region": "英国（5 个节点中位）",
+            "medianDownload": "108.61 MB/s",
+            "medianLatency": "190 ms"
+          },
+          {
+            "region": "德国（4 个节点中位）",
+            "medianDownload": "79.86 MB/s",
+            "medianLatency": "220 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "chatgpt": "✅ 通过",
+        "gemini": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/guangsuyun.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "guangnianti",
+      "name": "光年梯",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/guangnianti/",
+      "minimumMonthly": "¥18",
+      "coupon": null,
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": "62 / 62",
+      "editorScore": "4.4 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-19 21:36",
+        "entry": "A-深圳移动@2Gbps",
+        "regions": [
+          {
+            "region": "香港（14 个节点中位）",
+            "medianDownload": "82.06 MB/s",
+            "medianLatency": "41.5 ms"
+          },
+          {
+            "region": "台湾（6 个节点中位）",
+            "medianDownload": "112.1 MB/s",
+            "medianLatency": "43.5 ms"
+          },
+          {
+            "region": "日本（12 个节点中位）",
+            "medianDownload": "119.51 MB/s",
+            "medianLatency": "82.5 ms"
+          },
+          {
+            "region": "新加坡（6 个节点中位）",
+            "medianDownload": "105.11 MB/s",
+            "medianLatency": "77.5 ms"
+          },
+          {
+            "region": "美国（6 个节点中位）",
+            "medianDownload": "86.94 MB/s",
+            "medianLatency": "179.5 ms"
+          },
+          {
+            "region": "韩国（6 个节点中位）",
+            "medianDownload": "82.77 MB/s",
+            "medianLatency": "127 ms"
+          },
+          {
+            "region": "英国（6 个节点中位）",
+            "medianDownload": "97.89 MB/s",
+            "medianLatency": "190.5 ms"
+          },
+          {
+            "region": "德国（6 个节点中位）",
+            "medianDownload": "62.2 MB/s",
+            "medianLatency": "214 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "chatgpt": "✅ 通过",
+        "gemini": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/guangnianti.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "jilianyun",
+      "name": "极连云",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/jilianyun/",
+      "minimumMonthly": "¥18",
+      "coupon": null,
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": "55 / 55",
+      "editorScore": "4.3 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-21 21:12",
+        "entry": "A-广州电信@2Gbps",
+        "regions": [
+          {
+            "region": "香港（12 个节点中位）",
+            "medianDownload": "125.35 MB/s",
+            "medianLatency": "40.5 ms"
+          },
+          {
+            "region": "台湾（5 个节点中位）",
+            "medianDownload": "90.73 MB/s",
+            "medianLatency": "45 ms"
+          },
+          {
+            "region": "日本（12 个节点中位）",
+            "medianDownload": "114.13 MB/s",
+            "medianLatency": "79 ms"
+          },
+          {
+            "region": "新加坡（6 个节点中位）",
+            "medianDownload": "80.29 MB/s",
+            "medianLatency": "69.5 ms"
+          },
+          {
+            "region": "美国（5 个节点中位）",
+            "medianDownload": "115.85 MB/s",
+            "medianLatency": "182 ms"
+          },
+          {
+            "region": "韩国（5 个节点中位）",
+            "medianDownload": "96.6 MB/s",
+            "medianLatency": "123 ms"
+          },
+          {
+            "region": "英国（5 个节点中位）",
+            "medianDownload": "133.43 MB/s",
+            "medianLatency": "184 ms"
+          },
+          {
+            "region": "德国（5 个节点中位）",
+            "medianDownload": "97.47 MB/s",
+            "medianLatency": "227 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "chatgpt": "✅ 通过",
+        "gemini": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/jilianyun.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "wuyoulianjie",
+      "name": "无忧链接",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/wuyoulianjie/",
+      "minimumMonthly": "¥19",
+      "coupon": "`wuyou666`",
+      "discounted": "¥12.92",
+      "couponConditions": "仅限新用户首单；¥79 MINI 年付包不适用",
+      "nodes": null,
+      "editorScore": "数据不足，不给分",
+      "independentTest": "❌ 无",
+      "test": null,
+      "unlock": null,
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/wuyoulianjie.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "weituyun",
+      "name": "唯兔云",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/weituyun/",
+      "minimumMonthly": "¥19.9",
+      "coupon": "`rabbit`",
+      "discounted": "¥17.91",
+      "couponConditions": "需在结算页「有优惠券？」处手动填入并点「验证」",
+      "nodes": "29 / 30",
+      "editorScore": "4.1 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-19 21:18",
+        "entry": "A-长沙电信@2Gbps",
+        "regions": [
+          {
+            "region": "香港（7 个节点中位）",
+            "medianDownload": "73.25 MB/s",
+            "medianLatency": "50 ms"
+          },
+          {
+            "region": "台湾（5 个节点中位）",
+            "medianDownload": "98.47 MB/s",
+            "medianLatency": "62 ms"
+          },
+          {
+            "region": "日本（3 个节点中位）",
+            "medianDownload": "114.45 MB/s",
+            "medianLatency": "95 ms"
+          },
+          {
+            "region": "新加坡（4 个节点中位）",
+            "medianDownload": "100.51 MB/s",
+            "medianLatency": "77.5 ms"
+          },
+          {
+            "region": "美国（2 个节点中位）",
+            "medianDownload": "105.82 MB/s",
+            "medianLatency": "195 ms"
+          },
+          {
+            "region": "韩国（2 个节点中位）",
+            "medianDownload": "87.12 MB/s",
+            "medianLatency": "433.5 ms"
+          },
+          {
+            "region": "英国（2 个节点中位）",
+            "medianDownload": "45.32 MB/s",
+            "medianLatency": "344 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "partial",
+        "disney": "✅ 通过",
+        "chatgpt": "✅ 通过",
+        "gemini": "partial"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/weituyun.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "ermaoyun",
+      "name": "二猫云",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/ermaoyun/",
+      "minimumMonthly": "¥20",
+      "coupon": "`ermao888`",
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": "40 / 40",
+      "editorScore": "4.2 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-21 21:19",
+        "entry": "A-阳江电信@2Gbps",
+        "regions": [
+          {
+            "region": "香港（8 个节点中位）",
+            "medianDownload": "93.32 MB/s",
+            "medianLatency": "36 ms"
+          },
+          {
+            "region": "台湾（4 个节点中位）",
+            "medianDownload": "110.21 MB/s",
+            "medianLatency": "47.5 ms"
+          },
+          {
+            "region": "日本（8 个节点中位）",
+            "medianDownload": "97.7 MB/s",
+            "medianLatency": "78 ms"
+          },
+          {
+            "region": "新加坡（4 个节点中位）",
+            "medianDownload": "74.08 MB/s",
+            "medianLatency": "72.5 ms"
+          },
+          {
+            "region": "美国（4 个节点中位）",
+            "medianDownload": "88.04 MB/s",
+            "medianLatency": "202 ms"
+          },
+          {
+            "region": "韩国（4 个节点中位）",
+            "medianDownload": "81.98 MB/s",
+            "medianLatency": "122.5 ms"
+          },
+          {
+            "region": "英国（4 个节点中位）",
+            "medianDownload": "136.24 MB/s",
+            "medianLatency": "206 ms"
+          },
+          {
+            "region": "德国（4 个节点中位）",
+            "medianDownload": "108.11 MB/s",
+            "medianLatency": "227.5 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "chatgpt": "✅ 通过",
+        "gemini": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/ermaoyun.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "kuajieyun",
+      "name": "跨界云",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/kuajieyun/",
+      "minimumMonthly": "¥20",
+      "coupon": "`kuajie`",
+      "discounted": "¥16",
+      "couponConditions": "所有档位与周期（含两年/三年付）及重置包均可用，不限新老用户，未设有效期；⚠️ 跨界年付版（¥96/60GB）不适用",
+      "nodes": null,
+      "editorScore": "3.8 / 5（3 项计分）",
+      "independentTest": "⚠️ 仅第三方报告",
+      "test": null,
+      "unlock": {
+        "youtube": "✅ 通过",
+        "netflix": "✅ 通过",
+        "disney": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/kuajieyun.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "lingdongyun",
+      "name": "灵动云",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/lingdongyun/",
+      "minimumMonthly": "¥20",
+      "coupon": "`ld88`",
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": null,
+      "editorScore": "数据不足，不给分",
+      "independentTest": "❌ 无",
+      "test": null,
+      "unlock": null,
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/lingdongyun.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "muguang",
+      "name": "暮光加速",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/muguang/",
+      "minimumMonthly": "¥20",
+      "coupon": "`mm88`",
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": null,
+      "editorScore": "数据不足，不给分",
+      "independentTest": "❌ 无",
+      "test": null,
+      "unlock": null,
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/muguang.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "quanqiuyun",
+      "name": "全球云",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/quanqiuyun/",
+      "minimumMonthly": "¥20",
+      "coupon": null,
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": "32 / 33",
+      "editorScore": "3.5 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-20 21:28",
+        "entry": "A-佛山联通@2Gbps",
+        "regions": [
+          {
+            "region": "香港（5 个节点中位）",
+            "medianDownload": "86.73 MB/s",
+            "medianLatency": "41 ms"
+          },
+          {
+            "region": "台湾（2 个节点中位）",
+            "medianDownload": "5.91 MB/s",
+            "medianLatency": "90.5 ms"
+          },
+          {
+            "region": "日本（5 个节点中位）",
+            "medianDownload": "32.81 MB/s",
+            "medianLatency": "96 ms"
+          },
+          {
+            "region": "新加坡（3 个节点中位）",
+            "medianDownload": "80.27 MB/s",
+            "medianLatency": "72 ms"
+          },
+          {
+            "region": "美国（5 个节点中位）",
+            "medianDownload": "4.25 MB/s",
+            "medianLatency": "201 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "chatgpt": "partial",
+        "gemini": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/quanqiuyun.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "yifanyun",
+      "name": "一翻云",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/yifanyun/",
+      "minimumMonthly": "¥20",
+      "coupon": "`1FLYYUN`",
+      "discounted": "¥18",
+      "couponConditions": "已在结算页实测：轻享版月付 ¥20 → ¥18。页面未标明适用人群与有效期",
+      "nodes": "84 / 85",
+      "editorScore": "4.4 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-21 21:15",
+        "entry": "A-阳江电信@2Gbps",
+        "regions": [
+          {
+            "region": "香港（21 个节点中位）",
+            "medianDownload": "145.64 MB/s",
+            "medianLatency": "41 ms"
+          },
+          {
+            "region": "台湾（10 个节点中位）",
+            "medianDownload": "142.8 MB/s",
+            "medianLatency": "61.5 ms"
+          },
+          {
+            "region": "日本（10 个节点中位）",
+            "medianDownload": "133.34 MB/s",
+            "medianLatency": "90.5 ms"
+          },
+          {
+            "region": "新加坡（10 个节点中位）",
+            "medianDownload": "128.33 MB/s",
+            "medianLatency": "73.5 ms"
+          },
+          {
+            "region": "美国（10 个节点中位）",
+            "medianDownload": "77.19 MB/s",
+            "medianLatency": "206.5 ms"
+          },
+          {
+            "region": "韩国（2 个节点中位）",
+            "medianDownload": "88.54 MB/s",
+            "medianLatency": "130.5 ms"
+          },
+          {
+            "region": "英国（2 个节点中位）",
+            "medianDownload": "70.73 MB/s",
+            "medianLatency": "247 ms"
+          },
+          {
+            "region": "德国（2 个节点中位）",
+            "medianDownload": "51.68 MB/s",
+            "medianLatency": "354.5 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "partial",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "chatgpt": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/yifanyun.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "u1s1",
+      "name": "U1S1",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/u1s1/",
+      "minimumMonthly": "¥20",
+      "coupon": "`U1S1`",
+      "discounted": "¥17",
+      "couponConditions": "U1S1 是**新人特惠** 85 折，老用户不适用；官方注明「96 年包不适用」",
+      "nodes": "49 / 49",
+      "editorScore": "3.9 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-19 21:35",
+        "entry": "A-乐东电信@1Gbps",
+        "regions": [
+          {
+            "region": "香港（8 个节点中位）",
+            "medianDownload": "78.94 MB/s",
+            "medianLatency": "11 ms"
+          },
+          {
+            "region": "台湾（2 个节点中位）",
+            "medianDownload": "56.75 MB/s",
+            "medianLatency": "30.5 ms"
+          },
+          {
+            "region": "日本（8 个节点中位）",
+            "medianDownload": "39.83 MB/s",
+            "medianLatency": "76.5 ms"
+          },
+          {
+            "region": "新加坡（8 个节点中位）",
+            "medianDownload": "74.35 MB/s",
+            "medianLatency": "41.5 ms"
+          },
+          {
+            "region": "美国（8 个节点中位）",
+            "medianDownload": "31.9 MB/s",
+            "medianLatency": "185 ms"
+          },
+          {
+            "region": "韩国（2 个节点中位）",
+            "medianDownload": "36.63 MB/s",
+            "medianLatency": "134.5 ms"
+          },
+          {
+            "region": "英国（2 个节点中位）",
+            "medianDownload": "28.79 MB/s",
+            "medianLatency": "222.5 ms"
+          },
+          {
+            "region": "德国（2 个节点中位）",
+            "medianDownload": "13.16 MB/s",
+            "medianLatency": "160.5 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "chatgpt": "✅ 通过",
+        "gemini": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/u1s1.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "shanyue",
+      "name": "闪跃",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/shanyue/",
+      "minimumMonthly": "¥24",
+      "coupon": "`shanyue`",
+      "discounted": "¥19.2",
+      "couponConditions": "新人优惠，限用 1 次；适用于闪动 / 飞跃 / 瞬移 / 跃迁四档，月付至三年付均可",
+      "nodes": null,
+      "editorScore": "3.6 / 5（3 项计分）",
+      "independentTest": "⚠️ 仅第三方报告",
+      "test": null,
+      "unlock": {
+        "youtube": "✅ 通过",
+        "netflix": "✅ 通过",
+        "disney": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/shanyue.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "yinxingren",
+      "name": "隐形人",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/yinxingren/",
+      "minimumMonthly": "¥24",
+      "coupon": "`yxr888`",
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": null,
+      "editorScore": "数据不足，不给分",
+      "independentTest": "❌ 无",
+      "test": null,
+      "unlock": null,
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/yinxingren.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "feimaoyun",
+      "name": "飞猫云",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/feimaoyun/",
+      "minimumMonthly": "¥25",
+      "coupon": null,
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": "86 / 88",
+      "editorScore": "3.7 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-21 21:32",
+        "entry": "A-张家口电信@1Gbps",
+        "regions": [
+          {
+            "region": "香港（12 个节点中位）",
+            "medianDownload": "60.48 MB/s",
+            "medianLatency": "37 ms"
+          },
+          {
+            "region": "台湾（6 个节点中位）",
+            "medianDownload": "70.16 MB/s",
+            "medianLatency": "35.5 ms"
+          },
+          {
+            "region": "日本（12 个节点中位）",
+            "medianDownload": "45.38 MB/s",
+            "medianLatency": "110.5 ms"
+          },
+          {
+            "region": "新加坡（12 个节点中位）",
+            "medianDownload": "65.78 MB/s",
+            "medianLatency": "139.5 ms"
+          },
+          {
+            "region": "美国（12 个节点中位）",
+            "medianDownload": "55.02 MB/s",
+            "medianLatency": "193.5 ms"
+          },
+          {
+            "region": "韩国（2 个节点中位）",
+            "medianDownload": "59.41 MB/s",
+            "medianLatency": "175 ms"
+          },
+          {
+            "region": "英国（2 个节点中位）",
+            "medianDownload": "70.6 MB/s",
+            "medianLatency": "166 ms"
+          },
+          {
+            "region": "德国（2 个节点中位）",
+            "medianDownload": "54.96 MB/s",
+            "medianLatency": "237.5 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "hbo": "✅ 通过",
+        "tiktok": "❌ 未通过",
+        "chatgpt": "✅ 通过",
+        "spotify": "❌ 未通过",
+        "bilibili": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/feimaoyun.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "tiziyun",
+      "name": "梯子云",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/tiziyun/",
+      "minimumMonthly": "¥25",
+      "coupon": "`tiziyun`",
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": null,
+      "editorScore": "数据不足，不给分",
+      "independentTest": "❌ 无",
+      "test": null,
+      "unlock": null,
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/tiziyun.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "xingdaomeng",
+      "name": "星岛梦",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/xingdaomeng/",
+      "minimumMonthly": "¥25",
+      "coupon": "`nmw888`",
+      "discounted": "¥22.5",
+      "couponConditions": "需在结算页「有优惠券？」处手动填入并点「验证」",
+      "nodes": "87 / 88",
+      "editorScore": "4.0 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-21 21:48",
+        "entry": "A-上海Azure微软云@10Gbps",
+        "regions": [
+          {
+            "region": "香港（13 个节点中位）",
+            "medianDownload": "54.76 MB/s",
+            "medianLatency": "51 ms"
+          },
+          {
+            "region": "台湾（3 个节点中位）",
+            "medianDownload": "61.67 MB/s",
+            "medianLatency": "55 ms"
+          },
+          {
+            "region": "日本（12 个节点中位）",
+            "medianDownload": "53.14 MB/s",
+            "medianLatency": "98.5 ms"
+          },
+          {
+            "region": "新加坡（8 个节点中位）",
+            "medianDownload": "59.18 MB/s",
+            "medianLatency": "74.5 ms"
+          },
+          {
+            "region": "美国（15 个节点中位）",
+            "medianDownload": "50.66 MB/s",
+            "medianLatency": "214 ms"
+          },
+          {
+            "region": "韩国（3 个节点中位）",
+            "medianDownload": "50.39 MB/s",
+            "medianLatency": "148 ms"
+          },
+          {
+            "region": "英国（3 个节点中位）",
+            "medianDownload": "53.51 MB/s",
+            "medianLatency": "253 ms"
+          },
+          {
+            "region": "德国（2 个节点中位）",
+            "medianDownload": "63.66 MB/s",
+            "medianLatency": "311.5 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "chatgpt": "✅ 通过",
+        "gemini": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/xingdaomeng.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "yuzhouyun",
+      "name": "宇宙云",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/yuzhouyun/",
+      "minimumMonthly": "¥25",
+      "coupon": "`YUZHOU553`",
+      "discounted": "¥20",
+      "couponConditions": "需在结算页「有优惠券？」处手动填入并点「验证」",
+      "nodes": "60 / 60",
+      "editorScore": "4.2 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-20 21:08",
+        "entry": "A-武汉移动@2Gbps",
+        "regions": [
+          {
+            "region": "香港（12 个节点中位）",
+            "medianDownload": "94.25 MB/s",
+            "medianLatency": "42.5 ms"
+          },
+          {
+            "region": "台湾（6 个节点中位）",
+            "medianDownload": "112.29 MB/s",
+            "medianLatency": "55.5 ms"
+          },
+          {
+            "region": "日本（12 个节点中位）",
+            "medianDownload": "61.52 MB/s",
+            "medianLatency": "83.5 ms"
+          },
+          {
+            "region": "新加坡（6 个节点中位）",
+            "medianDownload": "109.98 MB/s",
+            "medianLatency": "75.5 ms"
+          },
+          {
+            "region": "美国（6 个节点中位）",
+            "medianDownload": "90.51 MB/s",
+            "medianLatency": "185 ms"
+          },
+          {
+            "region": "韩国（6 个节点中位）",
+            "medianDownload": "94.25 MB/s",
+            "medianLatency": "131.5 ms"
+          },
+          {
+            "region": "英国（6 个节点中位）",
+            "medianDownload": "106.17 MB/s",
+            "medianLatency": "197.5 ms"
+          },
+          {
+            "region": "德国（6 个节点中位）",
+            "medianDownload": "78.56 MB/s",
+            "medianLatency": "216.5 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "chatgpt": "✅ 通过",
+        "gemini": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/yuzhouyun.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "firefly",
+      "name": "Firefly",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/firefly/",
+      "minimumMonthly": "¥25",
+      "coupon": "`firefly`",
+      "discounted": "¥20",
+      "couponConditions": "仅限新用户首单；¥96 年付版不适用",
+      "nodes": null,
+      "editorScore": "数据不足，不给分",
+      "independentTest": "❌ 无",
+      "test": {
+        "regions": []
+      },
+      "unlock": null,
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/firefly.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "flyv",
+      "name": "FlyV",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/flyv/",
+      "minimumMonthly": "¥25",
+      "coupon": "`fly20`",
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": null,
+      "editorScore": "数据不足，不给分",
+      "independentTest": "❌ 无",
+      "test": {
+        "regions": []
+      },
+      "unlock": null,
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/flyv.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "sogoyun",
+      "name": "sogo云",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/sogoyun/",
+      "minimumMonthly": "¥25",
+      "coupon": "`SOGO88`",
+      "discounted": "¥22",
+      "couponConditions": "SOGO88，全场 88 折",
+      "nodes": "45 / 45",
+      "editorScore": "4.1 / 5（5 项计分）",
+      "independentTest": "✅ 有",
+      "test": {
+        "collectedAt": "2026-07-21 21:52",
+        "entry": "A-成都电信@2Gbps",
+        "regions": [
+          {
+            "region": "香港（10 个节点中位）",
+            "medianDownload": "102.82 MB/s",
+            "medianLatency": "37 ms"
+          },
+          {
+            "region": "台湾（4 个节点中位）",
+            "medianDownload": "91.56 MB/s",
+            "medianLatency": "47.5 ms"
+          },
+          {
+            "region": "日本（10 个节点中位）",
+            "medianDownload": "122.15 MB/s",
+            "medianLatency": "83.5 ms"
+          },
+          {
+            "region": "新加坡（5 个节点中位）",
+            "medianDownload": "74.22 MB/s",
+            "medianLatency": "72 ms"
+          },
+          {
+            "region": "美国（4 个节点中位）",
+            "medianDownload": "113.83 MB/s",
+            "medianLatency": "180 ms"
+          },
+          {
+            "region": "韩国（4 个节点中位）",
+            "medianDownload": "121.31 MB/s",
+            "medianLatency": "123.5 ms"
+          },
+          {
+            "region": "英国（4 个节点中位）",
+            "medianDownload": "87.98 MB/s",
+            "medianLatency": "217 ms"
+          },
+          {
+            "region": "德国（4 个节点中位）",
+            "medianDownload": "79.72 MB/s",
+            "medianLatency": "207.5 ms"
+          }
+        ]
+      },
+      "unlock": {
+        "netflix": "✅ 通过",
+        "youtube": "✅ 通过",
+        "disney": "✅ 通过",
+        "chatgpt": "✅ 通过",
+        "gemini": "✅ 通过"
+      },
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/sogoyun.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "weifengwangluo",
+      "name": "微风网络",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/weifengwangluo/",
+      "minimumMonthly": "¥27",
+      "coupon": "`weifeng90`",
+      "discounted": "¥18.9",
+      "couponConditions": "公告称全场七折（新购/续费/升级均可），公告已列折后价；⚠️ 码尾数字 90 与七折表述存在出入，结算页实测前以公告为准",
+      "nodes": null,
+      "editorScore": "数据不足，不给分",
+      "independentTest": "❌ 无",
+      "test": null,
+      "unlock": null,
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/weifengwangluo.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "jisucloud",
+      "name": "极速Cloud",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/jisucloud/",
+      "minimumMonthly": "¥30",
+      "coupon": "`ikds88`",
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": null,
+      "editorScore": "数据不足，不给分",
+      "independentTest": "❌ 无",
+      "test": {
+        "regions": []
+      },
+      "unlock": null,
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/jisucloud.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    },
+    {
+      "slug": "langwang",
+      "name": "浪网",
+      "dataSnapshot": "2026-08-23",
+      "profile": "https://www.jichangyyds.com/brands/langwang/",
+      "minimumMonthly": "¥30",
+      "coupon": "`lw88`",
+      "discounted": null,
+      "couponConditions": null,
+      "nodes": null,
+      "editorScore": "数据不足，不给分",
+      "independentTest": "❌ 无",
+      "test": null,
+      "unlock": null,
+      "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/langwang.md",
+      "status": "source-reported-active",
+      "statusLabel": "🟢 来源快照在营",
+      "repositoryCheckedOn": "2026-09-26"
+    }
+  ]
+}
