@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "repositoryCheckedOn": "2026-09-26",
+  "scope": "2025-2026 年两份公开社区/监测来源中的停运、失联、服务异常与高风险记录；均为来源报告，不代表本仓库已独立复现。",
+  "sources": [
+    "https://github.com/jichang007/paolujichang2026/blob/main/README.md",
+    "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+  ],
+  "records": [
+    {
+      "name": "奈云",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2026-06-09",
+      "summary": "来源报告官网、节点和订阅均失效，客服与公告渠道停止响应。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "Koodog",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2026-06-01",
+      "summary": "来源报告官网异常跳转、节点与订阅失效，并出现集中不可用反馈。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "OKAC",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2026-05-11",
+      "summary": "来源报告多条线路长期异常，出现补单与数据丢失问题，随后基本停止维护。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "蜜糖云",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2026-04-03",
+      "summary": "来源报告所有节点离线且客服、工单无人响应；官网即使可打开也不代表服务可用。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "忍者云",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2026-04-10",
+      "summary": "来源报告节点异常持续较久，邮件、工单和 Telegram 停止响应，最终全面失联。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "Lray",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2026-02-28",
+      "summary": "来源报告线路及专用客户端长期不可用，工单无回复，官网停止维护。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "洞墙（DlerCloud）",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2026-02-26",
+      "summary": "来源报告官网、官方联系渠道及节点均停止工作。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "小牛云",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2025-12-01",
+      "summary": "来源报告长期不稳定且客服失联，虽仍能购买但服务基本停止。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "SFCloud / FCCloud",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2026-08-05",
+      "summary": "两个来源均将 FCCloud/SFCloud 列为不可用：官网或节点离线、售后停止响应。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md",
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "EFCloud",
+      "status": "conflicting-reports",
+      "label": "🟠 来源结论冲突/高风险",
+      "date": "2026-07-28",
+      "summary": "一个来源标为已停运，另一来源标为服务异常；按更保守口径列入高风险，不写成独立确认的停运事实。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md",
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "流量光",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2025-10-09",
+      "summary": "两个来源均报告节点与订阅失效；另有官网异常跳转记录。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md",
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "Teacat（茶猫）",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2026",
+      "summary": "来源报告官网、节点和用户后台停止工作，工单无人处理。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "CAC",
+      "status": "reported-high-risk",
+      "label": "🟠 来源报告高风险",
+      "date": "2026-06-30",
+      "summary": "来源报告官网与节点异常，并提示与奈云存在可能的联动风险。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "隐云",
+      "status": "reported-high-risk",
+      "label": "🟠 来源报告高风险",
+      "date": "2026-06-30",
+      "summary": "来源报告官网、客服和大量节点异常，并提示与奈云存在可能的联动风险。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "小火箭机场",
+      "status": "reported-high-risk",
+      "label": "🟠 来源报告高风险",
+      "date": "2026 年初",
+      "summary": "来源报告大量节点不可用、速度下降且工单长期无人回复。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "Crelay",
+      "status": "reported-high-risk",
+      "label": "🟠 来源报告高风险",
+      "date": "2026-04",
+      "summary": "来源报告大部分节点长期离线、工单无人处理，但网站仍可购买。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "阿童木",
+      "status": "reported-high-risk",
+      "label": "🟠 来源报告高风险",
+      "date": "2025-02-23",
+      "summary": "来源报告大量节点无法连接、客服难以联系，同时仍持续售卖套餐。",
+      "sources": [
+        "https://github.com/jichang007/paolujichang2026/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "快帆云",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2026-08-07",
+      "summary": "来源报告节点全线超时、订阅无法拉取、DNS 停止解析且售后解散。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "spcloud",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2026-08-01",
+      "summary": "来源报告节点大面积离线、客服失联且官网暂停访问。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "ACA",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2026-07-20",
+      "summary": "来源报告中转服务器关停且运营团队失联。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "十元一年",
+      "status": "reported-high-risk",
+      "label": "🟠 来源报告高风险",
+      "date": "2026-07-15",
+      "summary": "来源报告超低价年付带来严重拥塞，晚高峰可用性很差。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "DuangCloud",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2026-06-30",
+      "summary": "来源报告官网内容清空、节点域名失效且售后渠道关闭。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "leensa",
+      "status": "reported-high-risk",
+      "label": "🟠 来源报告高风险",
+      "date": "2026-06-12",
+      "summary": "来源报告工单长期无人处理、订阅服务器超时且服务质量明显下降。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "六尺巷",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2025-12-25",
+      "summary": "来源报告节点整体关停，团队解散并停止技术支持。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "BHcloud / 蜂巢",
+      "status": "reported-high-risk",
+      "label": "🟠 来源报告高风险",
+      "date": "2025-11-18",
+      "summary": "来源报告套餐天数异常扣减，节点延迟抖动和超时频繁。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "v2Club",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2025-09-02",
+      "summary": "来源报告订阅内容被清空、节点全线超时且团队停止应答。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "云梯",
+      "status": "reported-abnormal",
+      "label": "🟠 来源报告服务异常",
+      "date": "2025-08-15",
+      "summary": "来源报告客服人员流失，晚高峰服务质量无法保障。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "极客云",
+      "status": "reported-high-risk",
+      "label": "🟠 来源报告高风险",
+      "date": "2025-07-22",
+      "summary": "来源报告低价套餐被大幅限速并被引导购买更高价套餐。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "飞鸟云",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2025-06-10",
+      "summary": "来源报告机房设备被封，维护更新与售后说明停止。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "极光加速",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2025-05-04",
+      "summary": "来源报告软件停止更新、中转服务器注销且客服通道关闭。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "星光云",
+      "status": "reported-high-risk",
+      "label": "🟠 来源报告高风险",
+      "date": "2025-04-12",
+      "summary": "来源报告频繁受攻击，晚高峰丢包和超时概率较高。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "小飞机",
+      "status": "reported-unavailable",
+      "label": "🔴 来源报告停运/失联",
+      "date": "2025-03-01",
+      "summary": "来源报告在大额年付促销后客服社群突然解散。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "极速鸟",
+      "status": "reported-abnormal",
+      "label": "🟠 来源报告服务异常",
+      "date": "2025-02-14",
+      "summary": "来源报告线路质量下降，节点延迟普遍明显增加。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "速鹰666",
+      "status": "reported-high-risk",
+      "label": "🟠 来源报告高风险",
+      "date": "2025-01-08",
+      "summary": "来源报告部分稳定线路要求老用户重新购买更高阶套餐。",
+      "sources": [
+        "https://github.com/jichangtianti/airport-status/blob/main/README.md"
+      ]
+    }
+  ]
+}
