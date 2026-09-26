@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="2026 年机场服务多来源索引，聚合当前候选、历史实测与 2020–2026 风险档案。">
+  <meta name="theme-color" content="#0b0e13">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; base-uri 'self'; form-action 'none'">
+  <title>2026 机场雷达｜候选与风险档案</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回首页">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span><strong>机场雷达</strong><small>2026 EVIDENCE INDEX</small></span>
+    </a>
+    <nav class="top-nav" aria-label="主导航">
+      <button class="nav-link is-active" data-tab="catalog" aria-selected="true">候选索引</button>
+      <button class="nav-link" data-tab="risk" aria-selected="false">风险档案</button>
+      <button class="nav-link" data-tab="method" aria-selected="false">方法与来源</button>
+    </nav>
+    <a class="repo-link" href="https://github.com/yyn666l/2026-Airport-Recommendations" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> 多来源聚合 · 不出售服务</p>
+        <h1>先看证据，<br><em>再做选择。</em></h1>
+        <p class="hero-lead">把当前候选、历史实测、停运失联与同名风险放进同一张可搜索的地图。这里记录来源与冲突，不承诺永久可用。</p>
+        <div class="hero-meta">
+          <span>最后整理 <b>2026-09-26</b></span>
+          <span>数据均可下载复核</span>
+        </div>
+      </div>
+      <aside class="hero-note" aria-label="使用提醒">
+        <span class="note-index">01</span>
+        <p>绿色只表示“当前公开来源仍收录”，不是实时节点担保。</p>
+        <p>第一次购买只选月付或短周期，工作用途保留独立备用。</p>
+      </aside>
+    </section>
+
+    <section class="stats" aria-label="数据概览">
+      <article><span class="stat-label">候选主体</span><strong id="stat-catalog">—</strong><small>四份当前清单去重</small></article>
+      <article><span class="stat-label">多来源交叉</span><strong id="stat-multi">—</strong><small>至少两份来源同时收录</small></article>
+      <article><span class="stat-label">历史实测</span><strong id="stat-tested">—</strong><small>保留入口与日期的样本</small></article>
+      <article class="risk-stat"><span class="stat-label">风险主体</span><strong id="stat-risk">—</strong><small>2020–2026 公开档案</small></article>
+    </section>
+
+    <section class="notice" role="note">
+      <span>判定口径</span>
+      <p>单一入口打不开 ≠ 停运；单次测速快 ≠ 长期稳定；同名记录也可能是不同运营主体。本站因此把证据层级和冲突直接显示出来。</p>
+    </section>
+
+    <section class="tab-panel is-active" id="panel-catalog" data-panel="catalog">
+      <div class="section-heading">
+        <div><p class="kicker">CURRENT CANDIDATES</p><h2>当前候选索引</h2></div>
+        <p>按证据密度排序，不做购买排名。</p>
+      </div>
+      <div class="toolbar" aria-label="候选筛选">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="catalog-search" type="search" placeholder="搜索名称、协议、线路、标签…" autocomplete="off"></label>
+        <label><span>证据</span><select id="catalog-evidence"><option value="all">全部证据</option><option value="multi">多来源</option><option value="tested">含历史实测</option><option value="single">单一来源</option><option value="conflict">存在冲突</option></select></label>
+        <label><span>线路</span><select id="catalog-line"><option value="all">全部线路</option></select></label>
+        <label><span>排序</span><select id="catalog-sort"><option value="evidence">证据优先</option><option value="name">名称 A–Z</option><option value="price">价格数字</option></select></label>
+      </div>
+      <div class="result-bar"><p id="catalog-count" aria-live="polite">正在读取数据…</p><button id="catalog-reset" class="text-button">清除筛选</button></div>
+      <div class="catalog-grid" id="catalog-grid"></div>
+      <button class="load-more" id="catalog-more" hidden>继续显示</button>
+    </section>
+
+    <section class="tab-panel" id="panel-risk" data-panel="risk" hidden>
+      <div class="section-heading">
+        <div><p class="kicker">RISK ARCHIVE · 2020–2026</p><h2>停运与风险档案</h2></div>
+        <p>来源报告，不作为独立事实认定。</p>
+      </div>
+      <div class="risk-callout"><strong>先辨别“同名”</strong><p>旧品牌名称可能被新主体再次使用。发现候选清单与历史风险重名时，本站只标记冲突，不自动判定当前主体已停运。</p></div>
+      <div class="toolbar risk-toolbar" aria-label="风险筛选">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="risk-search" type="search" placeholder="搜索历史主体或状态…" autocomplete="off"></label>
+        <label><span>年份</span><select id="risk-year"><option value="all">全部年份</option></select></label>
+        <label><span>范围</span><select id="risk-scope"><option value="all">全部记录</option><option value="recent">近期汇总</option><option value="historical">历史档案</option><option value="recovered">已恢复/撤回</option></select></label>
+      </div>
+      <div class="result-bar"><p id="risk-count" aria-live="polite">正在读取数据…</p><button id="risk-reset" class="text-button">清除筛选</button></div>
+      <div class="risk-list" id="risk-list"></div>
+      <button class="load-more" id="risk-more" hidden>继续显示</button>
+    </section>
+
+    <section class="tab-panel" id="panel-method" data-panel="method" hidden>
+      <div class="section-heading">
+        <div><p class="kicker">METHODOLOGY</p><h2>我们如何处理不确定性</h2></div>
+        <p>宁可保留空白，也不把营销文案写成结论。</p>
+      </div>
+      <div class="method-grid">
+        <article><span>01</span><h3>多来源而非投票</h3><p>同一名称出现于多份当前清单，只提高“仍在运营”的置信度，不代表性能更好。</p></article>
+        <article><span>02</span><h3>测试必须带日期</h3><p>速度、延迟和解锁都只属于当时入口与网络环境；历史样本不会被改写成实时结果。</p></article>
+        <article><span>03</span><h3>冲突不强行裁决</h3><p>当当前清单与风险档案重名，页面同时展示两边证据，等待主体身份与恢复情况复核。</p></article>
+        <article><span>04</span><h3>不收订阅与密钥</h3><p>站点只索引公开资料，不保存用户订阅链接、账号、令牌或私有节点配置。</p></article>
+      </div>
+      <div class="source-block">
+        <div><p class="kicker">SOURCES</p><h2>公开来源</h2><p>推荐顺序、商业合作和测试口径均属于各来源自身。本站只提取可比字段并保留链接。</p></div>
+        <div class="source-list" id="source-list"></div>
+      </div>
+      <div class="safety-grid">
+        <h2>下单前的五个动作</h2>
+        <ol><li><b>短周期</b><span>先月付，确认晚高峰和常用节点。</span></li><li><b>看倍率</b><span>标称流量需结合常用节点倍率折算。</span></li><li><b>查退款</b><span>把退款、重置和设备限制截图留档。</span></li><li><b>独立密码</b><span>不要复用邮箱主密码，不安装未知根证书。</span></li><li><b>准备备用</b><span>工作场景保留不同上游的第二方案。</span></li></ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>2026 机场雷达</strong><p>公开信息索引，不销售服务，不构成购买建议。</p></div>
+    <div><a href="./data/catalog.json">候选 JSON</a><a href="./data/risk-history.json">风险 JSON</a><a href="https://github.com/yyn666l/2026-Airport-Recommendations/issues" target="_blank" rel="noreferrer">提交纠错 ↗</a></div>
+  </footer>
+  <template id="empty-template"><div class="empty-state"><b>没有匹配结果</b><p>换一个关键词或清除筛选条件。</p></div></template>
+  <script src="./app.js" defer></script>
+</body>
+</html>
+

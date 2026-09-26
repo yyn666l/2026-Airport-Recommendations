@@ -1,0 +1,6789 @@
+{
+  "schemaVersion": 2,
+  "generatedOn": "2026-09-26",
+  "scope": "四份当前公开清单的全部条目去重聚合。收录表示来源仍列出该名称，不等于实时节点可用或购买推荐。",
+  "summary": {
+    "records": 111,
+    "multiSource": 31,
+    "singleSource": 80,
+    "historicalTests": 16,
+    "currentConflicts": 1,
+    "historicalNameConflicts": 3
+  },
+  "sources": [
+    {
+      "id": "yyds",
+      "label": "机场YYDS 30 家档案",
+      "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+      "asOf": "2026-08-23",
+      "updated": "2026-09-15",
+      "kind": "详细档案与历史实测"
+    },
+    {
+      "id": "vpsknow",
+      "label": "VPSKnow 机场索引",
+      "url": "https://github.com/everett7623/airport-recommendations-2026",
+      "asOf": "2026-09-24",
+      "updated": "2026-09-24",
+      "kind": "自动同步索引"
+    },
+    {
+      "id": "jichangcha",
+      "label": "机场查 32 家镜像",
+      "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+      "asOf": "2026-09-25",
+      "updated": "2026-09-25",
+      "kind": "套餐核验与部分站长实测"
+    },
+    {
+      "id": "signal",
+      "label": "SignalTower 对比表",
+      "url": "https://github.com/signaltowers/airport-recommendations-2026",
+      "asOf": "2026-07-26",
+      "updated": "2026-07-26",
+      "kind": "线路、协议与场景索引"
+    },
+    {
+      "id": "limbopro",
+      "label": "Paolujichang 历史档案",
+      "url": "https://github.com/limbopro/Paolujichang",
+      "asOf": "2026-09-14",
+      "updated": "2026-09-14",
+      "kind": "2020–2025 社区风险档案"
+    },
+    {
+      "id": "risk2026",
+      "label": "2025–2026 风险整理",
+      "url": "https://github.com/jichang007/paolujichang2026",
+      "asOf": "2026-09",
+      "updated": "2026-09",
+      "kind": "近期停运与高风险汇总"
+    },
+    {
+      "id": "tizirisk",
+      "label": "机场天梯风险数据库",
+      "url": "https://github.com/jichangtianti/airport-status",
+      "asOf": "2026-08-07",
+      "updated": "2026-08",
+      "kind": "探针与社区风险记录"
+    }
+  ],
+  "records": [
+    {
+      "id": "二猫云",
+      "name": "二猫云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📝 资料整理"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥20",
+          "discounted": null,
+          "coupon": "ermao888",
+          "conditions": null
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥89/年起"
+        },
+        {
+          "source": "jichangcha",
+          "price": "20 元/月 130GB",
+          "coupon": "ermao888"
+        }
+      ],
+      "lineTypes": [
+        "IEPL/IPLC专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube",
+        "disney",
+        "chatgpt",
+        "gemini",
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "专用客户端",
+        "不限设备",
+        "新晋推荐",
+        "性价比机场"
+      ],
+      "details": {
+        "slug": "ermaoyun",
+        "name": "二猫云",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/ermaoyun/",
+        "minimumMonthly": "¥20",
+        "coupon": "`ermao888`",
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": "40 / 40",
+        "editorScore": "4.2 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-21 21:19",
+          "entry": "A-阳江电信@2Gbps",
+          "regions": [
+            {
+              "region": "香港（8 个节点中位）",
+              "medianDownload": "93.32 MB/s",
+              "medianLatency": "36 ms"
+            },
+            {
+              "region": "台湾（4 个节点中位）",
+              "medianDownload": "110.21 MB/s",
+              "medianLatency": "47.5 ms"
+            },
+            {
+              "region": "日本（8 个节点中位）",
+              "medianDownload": "97.7 MB/s",
+              "medianLatency": "78 ms"
+            },
+            {
+              "region": "新加坡（4 个节点中位）",
+              "medianDownload": "74.08 MB/s",
+              "medianLatency": "72.5 ms"
+            },
+            {
+              "region": "美国（4 个节点中位）",
+              "medianDownload": "88.04 MB/s",
+              "medianLatency": "202 ms"
+            },
+            {
+              "region": "韩国（4 个节点中位）",
+              "medianDownload": "81.98 MB/s",
+              "medianLatency": "122.5 ms"
+            },
+            {
+              "region": "英国（4 个节点中位）",
+              "medianDownload": "136.24 MB/s",
+              "medianLatency": "206 ms"
+            },
+            {
+              "region": "德国（4 个节点中位）",
+              "medianDownload": "108.11 MB/s",
+              "medianLatency": "227.5 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "chatgpt": "✅ 通过",
+          "gemini": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/ermaoyun.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "飞猫云",
+      "name": "飞猫云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "✅ 站长实测"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥25",
+          "discounted": null,
+          "coupon": null,
+          "conditions": null
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥8/月 50GB起"
+        },
+        {
+          "source": "jichangcha",
+          "price": "7 元/月 50GB(年付)",
+          "coupon": "flycat888"
+        }
+      ],
+      "lineTypes": [
+        "IPLC/BGP-IEPL页面口径"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube",
+        "disney",
+        "hbo",
+        "chatgpt",
+        "bilibili",
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "总榜收录",
+        "专用客户端",
+        "短周期验证",
+        "老牌机场",
+        "站长实测"
+      ],
+      "details": {
+        "slug": "feimaoyun",
+        "name": "飞猫云",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/feimaoyun/",
+        "minimumMonthly": "¥25",
+        "coupon": null,
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": "86 / 88",
+        "editorScore": "3.7 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-21 21:32",
+          "entry": "A-张家口电信@1Gbps",
+          "regions": [
+            {
+              "region": "香港（12 个节点中位）",
+              "medianDownload": "60.48 MB/s",
+              "medianLatency": "37 ms"
+            },
+            {
+              "region": "台湾（6 个节点中位）",
+              "medianDownload": "70.16 MB/s",
+              "medianLatency": "35.5 ms"
+            },
+            {
+              "region": "日本（12 个节点中位）",
+              "medianDownload": "45.38 MB/s",
+              "medianLatency": "110.5 ms"
+            },
+            {
+              "region": "新加坡（12 个节点中位）",
+              "medianDownload": "65.78 MB/s",
+              "medianLatency": "139.5 ms"
+            },
+            {
+              "region": "美国（12 个节点中位）",
+              "medianDownload": "55.02 MB/s",
+              "medianLatency": "193.5 ms"
+            },
+            {
+              "region": "韩国（2 个节点中位）",
+              "medianDownload": "59.41 MB/s",
+              "medianLatency": "175 ms"
+            },
+            {
+              "region": "英国（2 个节点中位）",
+              "medianDownload": "70.6 MB/s",
+              "medianLatency": "166 ms"
+            },
+            {
+              "region": "德国（2 个节点中位）",
+              "medianDownload": "54.96 MB/s",
+              "medianLatency": "237.5 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "hbo": "✅ 通过",
+          "tiktok": "❌ 未通过",
+          "chatgpt": "✅ 通过",
+          "spotify": "❌ 未通过",
+          "bilibili": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/feimaoyun.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "光年梯",
+      "name": "光年梯",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥18",
+          "discounted": null,
+          "coupon": null,
+          "conditions": null
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥18/月起"
+        },
+        {
+          "source": "jichangcha",
+          "price": "18 元/月 110GB",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [
+        "IEPL专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube",
+        "disney",
+        "chatgpt",
+        "gemini",
+        "流媒体 ❓",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "SS协议",
+        "稳定",
+        "新加坡背景",
+        "老牌机场"
+      ],
+      "details": {
+        "slug": "guangnianti",
+        "name": "光年梯",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/guangnianti/",
+        "minimumMonthly": "¥18",
+        "coupon": null,
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": "62 / 62",
+        "editorScore": "4.4 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-19 21:36",
+          "entry": "A-深圳移动@2Gbps",
+          "regions": [
+            {
+              "region": "香港（14 个节点中位）",
+              "medianDownload": "82.06 MB/s",
+              "medianLatency": "41.5 ms"
+            },
+            {
+              "region": "台湾（6 个节点中位）",
+              "medianDownload": "112.1 MB/s",
+              "medianLatency": "43.5 ms"
+            },
+            {
+              "region": "日本（12 个节点中位）",
+              "medianDownload": "119.51 MB/s",
+              "medianLatency": "82.5 ms"
+            },
+            {
+              "region": "新加坡（6 个节点中位）",
+              "medianDownload": "105.11 MB/s",
+              "medianLatency": "77.5 ms"
+            },
+            {
+              "region": "美国（6 个节点中位）",
+              "medianDownload": "86.94 MB/s",
+              "medianLatency": "179.5 ms"
+            },
+            {
+              "region": "韩国（6 个节点中位）",
+              "medianDownload": "82.77 MB/s",
+              "medianLatency": "127 ms"
+            },
+            {
+              "region": "英国（6 个节点中位）",
+              "medianDownload": "97.89 MB/s",
+              "medianLatency": "190.5 ms"
+            },
+            {
+              "region": "德国（6 个节点中位）",
+              "medianDownload": "62.2 MB/s",
+              "medianLatency": "214 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "chatgpt": "✅ 通过",
+          "gemini": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/guangnianti.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "光速云",
+      "name": "光速云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥17",
+          "discounted": null,
+          "coupon": null,
+          "conditions": null
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥17/月起"
+        },
+        {
+          "source": "jichangcha",
+          "price": "17 元/月 110GB",
+          "coupon": "AMM"
+        }
+      ],
+      "lineTypes": [
+        "IPLC专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube",
+        "disney",
+        "chatgpt",
+        "gemini",
+        "流媒体 ✅",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "高性价比",
+        "流媒体",
+        "大流量",
+        "老牌机场 / 性价比机场 / 稳定机场 / 高端机场"
+      ],
+      "details": {
+        "slug": "guangsuyun",
+        "name": "光速云",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/guangsuyun/",
+        "minimumMonthly": "¥17",
+        "coupon": null,
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": "48 / 48",
+        "editorScore": "4.3 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-20 21:24",
+          "entry": "A-上海联通@2Gbps",
+          "regions": [
+            {
+              "region": "香港（10 个节点中位）",
+              "medianDownload": "123.1 MB/s",
+              "medianLatency": "36.5 ms"
+            },
+            {
+              "region": "台湾（5 个节点中位）",
+              "medianDownload": "81.53 MB/s",
+              "medianLatency": "51 ms"
+            },
+            {
+              "region": "日本（10 个节点中位）",
+              "medianDownload": "90.01 MB/s",
+              "medianLatency": "77 ms"
+            },
+            {
+              "region": "新加坡（5 个节点中位）",
+              "medianDownload": "97.88 MB/s",
+              "medianLatency": "68 ms"
+            },
+            {
+              "region": "美国（5 个节点中位）",
+              "medianDownload": "89.08 MB/s",
+              "medianLatency": "172 ms"
+            },
+            {
+              "region": "韩国（4 个节点中位）",
+              "medianDownload": "94.11 MB/s",
+              "medianLatency": "120 ms"
+            },
+            {
+              "region": "英国（5 个节点中位）",
+              "medianDownload": "108.61 MB/s",
+              "medianLatency": "190 ms"
+            },
+            {
+              "region": "德国（4 个节点中位）",
+              "medianDownload": "79.86 MB/s",
+              "medianLatency": "220 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "chatgpt": "✅ 通过",
+          "gemini": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/guangsuyun.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "极连云",
+      "name": "极连云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥18",
+          "discounted": null,
+          "coupon": null,
+          "conditions": null
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥14.4/月起"
+        },
+        {
+          "source": "jichangcha",
+          "price": "18 元/月 100GB",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [
+        "IPLC/IEPL专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube",
+        "disney",
+        "chatgpt",
+        "gemini",
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "专线",
+        "流媒体",
+        "高性价比",
+        "老牌机场"
+      ],
+      "details": {
+        "slug": "jilianyun",
+        "name": "极连云",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/jilianyun/",
+        "minimumMonthly": "¥18",
+        "coupon": null,
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": "55 / 55",
+        "editorScore": "4.3 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-21 21:12",
+          "entry": "A-广州电信@2Gbps",
+          "regions": [
+            {
+              "region": "香港（12 个节点中位）",
+              "medianDownload": "125.35 MB/s",
+              "medianLatency": "40.5 ms"
+            },
+            {
+              "region": "台湾（5 个节点中位）",
+              "medianDownload": "90.73 MB/s",
+              "medianLatency": "45 ms"
+            },
+            {
+              "region": "日本（12 个节点中位）",
+              "medianDownload": "114.13 MB/s",
+              "medianLatency": "79 ms"
+            },
+            {
+              "region": "新加坡（6 个节点中位）",
+              "medianDownload": "80.29 MB/s",
+              "medianLatency": "69.5 ms"
+            },
+            {
+              "region": "美国（5 个节点中位）",
+              "medianDownload": "115.85 MB/s",
+              "medianLatency": "182 ms"
+            },
+            {
+              "region": "韩国（5 个节点中位）",
+              "medianDownload": "96.6 MB/s",
+              "medianLatency": "123 ms"
+            },
+            {
+              "region": "英国（5 个节点中位）",
+              "medianDownload": "133.43 MB/s",
+              "medianLatency": "184 ms"
+            },
+            {
+              "region": "德国（5 个节点中位）",
+              "medianDownload": "97.47 MB/s",
+              "medianLatency": "227 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "chatgpt": "✅ 通过",
+          "gemini": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/jilianyun.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "可信云",
+      "name": "可信云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📝 资料整理"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥15",
+          "discounted": "¥12.75",
+          "coupon": "KEXIN85",
+          "conditions": "KEXIN85 全场 85 折。另有年付专属 TRUST2026（80 折），仅适用于年付，不适用月付"
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥96/年 60GB/月起"
+        },
+        {
+          "source": "jichangcha",
+          "price": "25 元/月 150GB",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [
+        "IPLC/IEPL专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube",
+        "disney",
+        "chatgpt",
+        "gemini",
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "不限设备",
+        "AI解锁",
+        "专线小包",
+        "性价比机场"
+      ],
+      "details": {
+        "slug": "kexinyun",
+        "name": "可信云",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/kexinyun/",
+        "minimumMonthly": "¥15",
+        "coupon": "`KEXIN85`",
+        "discounted": "¥12.75",
+        "couponConditions": "KEXIN85 全场 85 折。另有年付专属 TRUST2026（80 折），仅适用于年付，不适用月付",
+        "nodes": "50 / 50",
+        "editorScore": "4.5 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-20 21:15",
+          "entry": "A-杭州电信@1Gbps",
+          "regions": [
+            {
+              "region": "香港（10 个节点中位）",
+              "medianDownload": "121.55 MB/s",
+              "medianLatency": "38 ms"
+            },
+            {
+              "region": "台湾（5 个节点中位）",
+              "medianDownload": "151.88 MB/s",
+              "medianLatency": "46 ms"
+            },
+            {
+              "region": "日本（10 个节点中位）",
+              "medianDownload": "86.63 MB/s",
+              "medianLatency": "90.5 ms"
+            },
+            {
+              "region": "新加坡（5 个节点中位）",
+              "medianDownload": "64.02 MB/s",
+              "medianLatency": "67 ms"
+            },
+            {
+              "region": "美国（5 个节点中位）",
+              "medianDownload": "69.1 MB/s",
+              "medianLatency": "193 ms"
+            },
+            {
+              "region": "韩国（5 个节点中位）",
+              "medianDownload": "97.57 MB/s",
+              "medianLatency": "127 ms"
+            },
+            {
+              "region": "英国（5 个节点中位）",
+              "medianDownload": "52.84 MB/s",
+              "medianLatency": "195 ms"
+            },
+            {
+              "region": "德国（5 个节点中位）",
+              "medianDownload": "124.42 MB/s",
+              "medianLatency": "219 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "chatgpt": "✅ 通过",
+          "gemini": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/kexinyun.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "快狸",
+      "name": "快狸",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📝 资料整理"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥15",
+          "discounted": null,
+          "coupon": null,
+          "conditions": null
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥96/年起（折后）"
+        },
+        {
+          "source": "jichangcha",
+          "price": "25 元/月 150GB",
+          "coupon": "theo66"
+        }
+      ],
+      "lineTypes": [
+        "IEPL专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube",
+        "disney",
+        "chatgpt",
+        "gemini",
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "专用客户端",
+        "IEPL专线",
+        "流媒体解锁",
+        "性价比机场"
+      ],
+      "details": {
+        "slug": "kuaili",
+        "name": "快狸",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/kuaili/",
+        "minimumMonthly": "¥15",
+        "coupon": null,
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": "38 / 38",
+        "editorScore": "4.4 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-19 21:28",
+          "entry": "A-南京联通@2Gbps",
+          "regions": [
+            {
+              "region": "香港（8 个节点中位）",
+              "medianDownload": "91.02 MB/s",
+              "medianLatency": "37.5 ms"
+            },
+            {
+              "region": "台湾（4 个节点中位）",
+              "medianDownload": "107.63 MB/s",
+              "medianLatency": "50 ms"
+            },
+            {
+              "region": "日本（8 个节点中位）",
+              "medianDownload": "63.52 MB/s",
+              "medianLatency": "82.5 ms"
+            },
+            {
+              "region": "新加坡（4 个节点中位）",
+              "medianDownload": "73.71 MB/s",
+              "medianLatency": "80 ms"
+            },
+            {
+              "region": "美国（4 个节点中位）",
+              "medianDownload": "134.21 MB/s",
+              "medianLatency": "186.5 ms"
+            },
+            {
+              "region": "韩国（3 个节点中位）",
+              "medianDownload": "57.36 MB/s",
+              "medianLatency": "142 ms"
+            },
+            {
+              "region": "英国（4 个节点中位）",
+              "medianDownload": "100.64 MB/s",
+              "medianLatency": "215 ms"
+            },
+            {
+              "region": "德国（3 个节点中位）",
+              "medianDownload": "125.21 MB/s",
+              "medianLatency": "228 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "chatgpt": "✅ 通过",
+          "gemini": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/kuaili.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "全球云",
+      "name": "全球云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥20",
+          "discounted": null,
+          "coupon": null,
+          "conditions": null
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥20/月起（年付¥99起）"
+        },
+        {
+          "source": "jichangcha",
+          "price": "20 元/月 120GB",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [
+        "IPLC/IEPL专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube",
+        "disney",
+        "chatgpt（部分）",
+        "gemini",
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "流媒体",
+        "专线",
+        "高性价比",
+        "老牌机场"
+      ],
+      "details": {
+        "slug": "quanqiuyun",
+        "name": "全球云",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/quanqiuyun/",
+        "minimumMonthly": "¥20",
+        "coupon": null,
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": "32 / 33",
+        "editorScore": "3.5 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-20 21:28",
+          "entry": "A-佛山联通@2Gbps",
+          "regions": [
+            {
+              "region": "香港（5 个节点中位）",
+              "medianDownload": "86.73 MB/s",
+              "medianLatency": "41 ms"
+            },
+            {
+              "region": "台湾（2 个节点中位）",
+              "medianDownload": "5.91 MB/s",
+              "medianLatency": "90.5 ms"
+            },
+            {
+              "region": "日本（5 个节点中位）",
+              "medianDownload": "32.81 MB/s",
+              "medianLatency": "96 ms"
+            },
+            {
+              "region": "新加坡（3 个节点中位）",
+              "medianDownload": "80.27 MB/s",
+              "medianLatency": "72 ms"
+            },
+            {
+              "region": "美国（5 个节点中位）",
+              "medianDownload": "4.25 MB/s",
+              "medianLatency": "201 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "chatgpt": "partial",
+          "gemini": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/quanqiuyun.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "速界",
+      "name": "速界",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📝 资料整理"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥15",
+          "discounted": "¥12.75",
+          "coupon": "sj888",
+          "conditions": "sj888 是节点故障补偿码，**仅限续费用户**，且官方标明限时 2 个月，新用户不适用"
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥90/年起（折前）"
+        },
+        {
+          "source": "jichangcha",
+          "price": "25 元/月 150GB",
+          "coupon": "sujie888"
+        }
+      ],
+      "lineTypes": [
+        "全 IPLC 专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube",
+        "disney",
+        "chatgpt",
+        "gemini",
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "线路差异明显",
+        "不限设备",
+        "全节点x1",
+        "性价比机场"
+      ],
+      "details": {
+        "slug": "sujie",
+        "name": "速界",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/sujie/",
+        "minimumMonthly": "¥15",
+        "coupon": "`sj888`",
+        "discounted": "¥12.75",
+        "couponConditions": "sj888 是节点故障补偿码，**仅限续费用户**，且官方标明限时 2 个月，新用户不适用",
+        "nodes": "52 / 52",
+        "editorScore": "4.5 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-19 21:45",
+          "entry": "A-福州电信@2Gbps",
+          "regions": [
+            {
+              "region": "香港（12 个节点中位）",
+              "medianDownload": "95.6 MB/s",
+              "medianLatency": "37 ms"
+            },
+            {
+              "region": "台湾（5 个节点中位）",
+              "medianDownload": "95.12 MB/s",
+              "medianLatency": "50 ms"
+            },
+            {
+              "region": "日本（10 个节点中位）",
+              "medianDownload": "99.38 MB/s",
+              "medianLatency": "78.5 ms"
+            },
+            {
+              "region": "新加坡（5 个节点中位）",
+              "medianDownload": "92.19 MB/s",
+              "medianLatency": "69 ms"
+            },
+            {
+              "region": "美国（5 个节点中位）",
+              "medianDownload": "70.86 MB/s",
+              "medianLatency": "179 ms"
+            },
+            {
+              "region": "韩国（5 个节点中位）",
+              "medianDownload": "106.64 MB/s",
+              "medianLatency": "117 ms"
+            },
+            {
+              "region": "英国（5 个节点中位）",
+              "medianDownload": "107.67 MB/s",
+              "medianLatency": "207 ms"
+            },
+            {
+              "region": "德国（5 个节点中位）",
+              "medianDownload": "79.15 MB/s",
+              "medianLatency": "204 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "chatgpt": "✅ 通过",
+          "gemini": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/sujie.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "微风网络",
+      "name": "微风网络",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "❌ 无"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "✅ 站长实测"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥27",
+          "discounted": "¥18.9",
+          "coupon": "weifeng90",
+          "conditions": "公告称全场七折（新购/续费/升级均可），公告已列折后价；⚠️ 码尾数字 90 与七折表述存在出入，结算页实测前以公告为准"
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥137/年 100GB起"
+        },
+        {
+          "source": "jichangcha",
+          "price": "11.4 元/月 100GB(年付 137 元)",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [
+        "IPLC页面口径"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "总榜收录",
+        "客户端接入",
+        "短周期验证",
+        "稳定机场",
+        "站长实测"
+      ],
+      "details": {
+        "slug": "weifengwangluo",
+        "name": "微风网络",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/weifengwangluo/",
+        "minimumMonthly": "¥27",
+        "coupon": "`weifeng90`",
+        "discounted": "¥18.9",
+        "couponConditions": "公告称全场七折（新购/续费/升级均可），公告已列折后价；⚠️ 码尾数字 90 与七折表述存在出入，结算页实测前以公告为准",
+        "nodes": null,
+        "editorScore": "数据不足，不给分",
+        "independentTest": "❌ 无",
+        "test": null,
+        "unlock": null,
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/weifengwangluo.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "多来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "唯兔云",
+      "name": "唯兔云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥19.9",
+          "discounted": "¥17.91",
+          "coupon": "rabbit",
+          "conditions": "需在结算页「有优惠券？」处手动填入并点「验证」"
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥6.6/月起（年付）"
+        },
+        {
+          "source": "jichangcha",
+          "price": "14.9 元/月 100GB",
+          "coupon": "rabbit"
+        }
+      ],
+      "lineTypes": [
+        "IPLC专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube（部分）",
+        "disney",
+        "chatgpt",
+        "gemini（部分）",
+        "流媒体 ✅",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "高性价比",
+        "流媒体",
+        "不限时可选",
+        "老牌机场"
+      ],
+      "details": {
+        "slug": "weituyun",
+        "name": "唯兔云",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/weituyun/",
+        "minimumMonthly": "¥19.9",
+        "coupon": "`rabbit`",
+        "discounted": "¥17.91",
+        "couponConditions": "需在结算页「有优惠券？」处手动填入并点「验证」",
+        "nodes": "29 / 30",
+        "editorScore": "4.1 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-19 21:18",
+          "entry": "A-长沙电信@2Gbps",
+          "regions": [
+            {
+              "region": "香港（7 个节点中位）",
+              "medianDownload": "73.25 MB/s",
+              "medianLatency": "50 ms"
+            },
+            {
+              "region": "台湾（5 个节点中位）",
+              "medianDownload": "98.47 MB/s",
+              "medianLatency": "62 ms"
+            },
+            {
+              "region": "日本（3 个节点中位）",
+              "medianDownload": "114.45 MB/s",
+              "medianLatency": "95 ms"
+            },
+            {
+              "region": "新加坡（4 个节点中位）",
+              "medianDownload": "100.51 MB/s",
+              "medianLatency": "77.5 ms"
+            },
+            {
+              "region": "美国（2 个节点中位）",
+              "medianDownload": "105.82 MB/s",
+              "medianLatency": "195 ms"
+            },
+            {
+              "region": "韩国（2 个节点中位）",
+              "medianDownload": "87.12 MB/s",
+              "medianLatency": "433.5 ms"
+            },
+            {
+              "region": "英国（2 个节点中位）",
+              "medianDownload": "45.32 MB/s",
+              "medianLatency": "344 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "partial",
+          "disney": "✅ 通过",
+          "chatgpt": "✅ 通过",
+          "gemini": "partial"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/weituyun.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "星岛梦",
+      "name": "星岛梦",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "✅ 站长实测"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥25",
+          "discounted": "¥22.5",
+          "coupon": "nmw888",
+          "conditions": "需在结算页「有优惠券？」处手动填入并点「验证」"
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥25/月 150GB起（年付¥96/60GB）"
+        },
+        {
+          "source": "jichangcha",
+          "price": "8 元/月 60GB(年付)",
+          "coupon": "nmw888"
+        }
+      ],
+      "lineTypes": [
+        "IEPL/IPLC+BGP页面口径"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube",
+        "disney",
+        "chatgpt",
+        "gemini",
+        "流媒体 ✅",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "通用订阅",
+        "流媒体首轮可用",
+        "不主推",
+        "老牌机场 / 性价比机场 / 稳定机场 / 高端机场",
+        "站长实测"
+      ],
+      "details": {
+        "slug": "xingdaomeng",
+        "name": "星岛梦",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/xingdaomeng/",
+        "minimumMonthly": "¥25",
+        "coupon": "`nmw888`",
+        "discounted": "¥22.5",
+        "couponConditions": "需在结算页「有优惠券？」处手动填入并点「验证」",
+        "nodes": "87 / 88",
+        "editorScore": "4.0 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-21 21:48",
+          "entry": "A-上海Azure微软云@10Gbps",
+          "regions": [
+            {
+              "region": "香港（13 个节点中位）",
+              "medianDownload": "54.76 MB/s",
+              "medianLatency": "51 ms"
+            },
+            {
+              "region": "台湾（3 个节点中位）",
+              "medianDownload": "61.67 MB/s",
+              "medianLatency": "55 ms"
+            },
+            {
+              "region": "日本（12 个节点中位）",
+              "medianDownload": "53.14 MB/s",
+              "medianLatency": "98.5 ms"
+            },
+            {
+              "region": "新加坡（8 个节点中位）",
+              "medianDownload": "59.18 MB/s",
+              "medianLatency": "74.5 ms"
+            },
+            {
+              "region": "美国（15 个节点中位）",
+              "medianDownload": "50.66 MB/s",
+              "medianLatency": "214 ms"
+            },
+            {
+              "region": "韩国（3 个节点中位）",
+              "medianDownload": "50.39 MB/s",
+              "medianLatency": "148 ms"
+            },
+            {
+              "region": "英国（3 个节点中位）",
+              "medianDownload": "53.51 MB/s",
+              "medianLatency": "253 ms"
+            },
+            {
+              "region": "德国（2 个节点中位）",
+              "medianDownload": "63.66 MB/s",
+              "medianLatency": "311.5 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "chatgpt": "✅ 通过",
+          "gemini": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/xingdaomeng.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "一翻云",
+      "name": "一翻云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📝 资料整理"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥20",
+          "discounted": "¥18",
+          "coupon": "1FLYYUN",
+          "conditions": "已在结算页实测：轻享版月付 ¥20 → ¥18。页面未标明适用人群与有效期"
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥25/月起（年付¥100/年）"
+        },
+        {
+          "source": "jichangcha",
+          "price": "20 元/月 150GB",
+          "coupon": "1FLYYUN"
+        }
+      ],
+      "lineTypes": [
+        "IEPL专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix（部分）",
+        "youtube",
+        "disney",
+        "chatgpt",
+        "流媒体 ✅",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "新晋推荐",
+        "流媒体解锁",
+        "专线稳定",
+        "性价比机场"
+      ],
+      "details": {
+        "slug": "yifanyun",
+        "name": "一翻云",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/yifanyun/",
+        "minimumMonthly": "¥20",
+        "coupon": "`1FLYYUN`",
+        "discounted": "¥18",
+        "couponConditions": "已在结算页实测：轻享版月付 ¥20 → ¥18。页面未标明适用人群与有效期",
+        "nodes": "84 / 85",
+        "editorScore": "4.4 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-21 21:15",
+          "entry": "A-阳江电信@2Gbps",
+          "regions": [
+            {
+              "region": "香港（21 个节点中位）",
+              "medianDownload": "145.64 MB/s",
+              "medianLatency": "41 ms"
+            },
+            {
+              "region": "台湾（10 个节点中位）",
+              "medianDownload": "142.8 MB/s",
+              "medianLatency": "61.5 ms"
+            },
+            {
+              "region": "日本（10 个节点中位）",
+              "medianDownload": "133.34 MB/s",
+              "medianLatency": "90.5 ms"
+            },
+            {
+              "region": "新加坡（10 个节点中位）",
+              "medianDownload": "128.33 MB/s",
+              "medianLatency": "73.5 ms"
+            },
+            {
+              "region": "美国（10 个节点中位）",
+              "medianDownload": "77.19 MB/s",
+              "medianLatency": "206.5 ms"
+            },
+            {
+              "region": "韩国（2 个节点中位）",
+              "medianDownload": "88.54 MB/s",
+              "medianLatency": "130.5 ms"
+            },
+            {
+              "region": "英国（2 个节点中位）",
+              "medianDownload": "70.73 MB/s",
+              "medianLatency": "247 ms"
+            },
+            {
+              "region": "德国（2 个节点中位）",
+              "medianDownload": "51.68 MB/s",
+              "medianLatency": "354.5 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "partial",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "chatgpt": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/yifanyun.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "宇宙云",
+      "name": "宇宙云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📝 资料整理"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥25",
+          "discounted": "¥20",
+          "coupon": "YUZHOU553",
+          "conditions": "需在结算页「有优惠券？」处手动填入并点「验证」"
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥12.5/月起（年付¥96/年）"
+        },
+        {
+          "source": "jichangcha",
+          "price": "14.9 元/月 100GB",
+          "coupon": "YUZHOU553"
+        }
+      ],
+      "lineTypes": [
+        "IEPL专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube",
+        "disney",
+        "chatgpt",
+        "gemini",
+        "流媒体 ✅",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "新晋推荐",
+        "流媒体解锁",
+        "专线稳定",
+        "性价比机场"
+      ],
+      "details": {
+        "slug": "yuzhouyun",
+        "name": "宇宙云",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/yuzhouyun/",
+        "minimumMonthly": "¥25",
+        "coupon": "`YUZHOU553`",
+        "discounted": "¥20",
+        "couponConditions": "需在结算页「有优惠券？」处手动填入并点「验证」",
+        "nodes": "60 / 60",
+        "editorScore": "4.2 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-20 21:08",
+          "entry": "A-武汉移动@2Gbps",
+          "regions": [
+            {
+              "region": "香港（12 个节点中位）",
+              "medianDownload": "94.25 MB/s",
+              "medianLatency": "42.5 ms"
+            },
+            {
+              "region": "台湾（6 个节点中位）",
+              "medianDownload": "112.29 MB/s",
+              "medianLatency": "55.5 ms"
+            },
+            {
+              "region": "日本（12 个节点中位）",
+              "medianDownload": "61.52 MB/s",
+              "medianLatency": "83.5 ms"
+            },
+            {
+              "region": "新加坡（6 个节点中位）",
+              "medianDownload": "109.98 MB/s",
+              "medianLatency": "75.5 ms"
+            },
+            {
+              "region": "美国（6 个节点中位）",
+              "medianDownload": "90.51 MB/s",
+              "medianLatency": "185 ms"
+            },
+            {
+              "region": "韩国（6 个节点中位）",
+              "medianDownload": "94.25 MB/s",
+              "medianLatency": "131.5 ms"
+            },
+            {
+              "region": "英国（6 个节点中位）",
+              "medianDownload": "106.17 MB/s",
+              "medianLatency": "197.5 ms"
+            },
+            {
+              "region": "德国（6 个节点中位）",
+              "medianDownload": "78.56 MB/s",
+              "medianLatency": "216.5 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "chatgpt": "✅ 通过",
+          "gemini": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/yuzhouyun.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "edgenova",
+      "name": "edgenova",
+      "aliases": [
+        "EdgeNova"
+      ],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📝 资料整理"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥15",
+          "discounted": "¥12.75",
+          "coupon": "EN888",
+          "conditions": "EN888 是节点故障补偿码，**仅限续费用户**，且官方标明限时 2 个月，新用户不适用"
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥86/年起（优惠后）"
+        },
+        {
+          "source": "jichangcha",
+          "price": "20 元/月 100GB",
+          "coupon": "TH888"
+        }
+      ],
+      "lineTypes": [
+        "IEPL专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube",
+        "disney",
+        "chatgpt",
+        "gemini",
+        "流媒体 ❓",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "专线",
+        "新锐",
+        "全兼容",
+        "性价比机场"
+      ],
+      "details": {
+        "slug": "edgenova",
+        "name": "edgenova",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/edgenova/",
+        "minimumMonthly": "¥15",
+        "coupon": "`EN888`",
+        "discounted": "¥12.75",
+        "couponConditions": "EN888 是节点故障补偿码，**仅限续费用户**，且官方标明限时 2 个月，新用户不适用",
+        "nodes": "42 / 42",
+        "editorScore": "4.5 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-21 21:40",
+          "entry": "A-北京电信@2Gbps",
+          "regions": [
+            {
+              "region": "香港（10 个节点中位）",
+              "medianDownload": "114.16 MB/s",
+              "medianLatency": "39 ms"
+            },
+            {
+              "region": "台湾（4 个节点中位）",
+              "medianDownload": "128.59 MB/s",
+              "medianLatency": "48.5 ms"
+            },
+            {
+              "region": "日本（8 个节点中位）",
+              "medianDownload": "85.48 MB/s",
+              "medianLatency": "82.5 ms"
+            },
+            {
+              "region": "新加坡（4 个节点中位）",
+              "medianDownload": "104.55 MB/s",
+              "medianLatency": "75.5 ms"
+            },
+            {
+              "region": "美国（4 个节点中位）",
+              "medianDownload": "108.04 MB/s",
+              "medianLatency": "167.5 ms"
+            },
+            {
+              "region": "韩国（4 个节点中位）",
+              "medianDownload": "96.51 MB/s",
+              "medianLatency": "132.5 ms"
+            },
+            {
+              "region": "英国（4 个节点中位）",
+              "medianDownload": "98.87 MB/s",
+              "medianLatency": "207 ms"
+            },
+            {
+              "region": "德国（4 个节点中位）",
+              "medianDownload": "86.65 MB/s",
+              "medianLatency": "213.5 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "chatgpt": "✅ 通过",
+          "gemini": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/edgenova.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "u1s1",
+      "name": "U1S1",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥20",
+          "discounted": "¥17",
+          "coupon": "U1S1",
+          "conditions": "U1S1 是**新人特惠** 85 折，老用户不适用；官方注明「96 年包不适用」"
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥18.8/月起"
+        },
+        {
+          "source": "jichangcha",
+          "price": "20 元/月 120GB",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [
+        "中转专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube",
+        "disney",
+        "chatgpt",
+        "gemini",
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "不限设备",
+        "千兆带宽",
+        "流媒体全解锁",
+        "老牌机场"
+      ],
+      "details": {
+        "slug": "u1s1",
+        "name": "U1S1",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/u1s1/",
+        "minimumMonthly": "¥20",
+        "coupon": "`U1S1`",
+        "discounted": "¥17",
+        "couponConditions": "U1S1 是**新人特惠** 85 折，老用户不适用；官方注明「96 年包不适用」",
+        "nodes": "49 / 49",
+        "editorScore": "3.9 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-19 21:35",
+          "entry": "A-乐东电信@1Gbps",
+          "regions": [
+            {
+              "region": "香港（8 个节点中位）",
+              "medianDownload": "78.94 MB/s",
+              "medianLatency": "11 ms"
+            },
+            {
+              "region": "台湾（2 个节点中位）",
+              "medianDownload": "56.75 MB/s",
+              "medianLatency": "30.5 ms"
+            },
+            {
+              "region": "日本（8 个节点中位）",
+              "medianDownload": "39.83 MB/s",
+              "medianLatency": "76.5 ms"
+            },
+            {
+              "region": "新加坡（8 个节点中位）",
+              "medianDownload": "74.35 MB/s",
+              "medianLatency": "41.5 ms"
+            },
+            {
+              "region": "美国（8 个节点中位）",
+              "medianDownload": "31.9 MB/s",
+              "medianLatency": "185 ms"
+            },
+            {
+              "region": "韩国（2 个节点中位）",
+              "medianDownload": "36.63 MB/s",
+              "medianLatency": "134.5 ms"
+            },
+            {
+              "region": "英国（2 个节点中位）",
+              "medianDownload": "28.79 MB/s",
+              "medianLatency": "222.5 ms"
+            },
+            {
+              "region": "德国（2 个节点中位）",
+              "medianDownload": "13.16 MB/s",
+              "medianLatency": "160.5 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "chatgpt": "✅ 通过",
+          "gemini": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/u1s1.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 3,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "69云",
+      "name": "69云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥13.36/月起"
+        },
+        {
+          "source": "signal",
+          "price": "¥9.9 / 月"
+        }
+      ],
+      "lineTypes": [
+        "公网中转/中继",
+        "专线中转"
+      ],
+      "protocols": [
+        "Shadowsocks",
+        "VMess"
+      ],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓",
+        "Netflix",
+        "Disney+",
+        "HBO",
+        "ChatGPT",
+        "Emby 影视库"
+      ],
+      "tags": [
+        "Emby影音",
+        "冷门节点",
+        "性价比",
+        "冷门地区 / Emby 影音"
+      ],
+      "details": null,
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "双来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "极速cloud",
+      "name": "极速Cloud",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "❌ 无"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥30",
+          "discounted": null,
+          "coupon": "ikds88",
+          "conditions": null
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥15/月起"
+        }
+      ],
+      "lineTypes": [
+        "CN2 GIA/AS9929/CMIN2"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "VLESS",
+        "多地区",
+        "隐私待查"
+      ],
+      "details": {
+        "slug": "jisucloud",
+        "name": "极速Cloud",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/jisucloud/",
+        "minimumMonthly": "¥30",
+        "coupon": "`ikds88`",
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": null,
+        "editorScore": "数据不足，不给分",
+        "independentTest": "❌ 无",
+        "test": {
+          "regions": []
+        },
+        "unlock": null,
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/jisucloud.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "双来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "跨界云",
+      "name": "跨界云",
+      "aliases": [
+        "跨界"
+      ],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "⚠️ 仅第三方报告"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥20",
+          "discounted": "¥16",
+          "coupon": "kuajie",
+          "conditions": "所有档位与周期（含两年/三年付）及重置包均可用，不限新老用户，未设有效期；⚠️ 跨界年付版（¥96/60GB）不适用"
+        },
+        {
+          "source": "jichangcha",
+          "price": "8 元/月 60GB(年付 96 元)",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [
+        "youtube",
+        "netflix",
+        "disney"
+      ],
+      "tags": [
+        "稳定机场"
+      ],
+      "details": {
+        "slug": "kuajieyun",
+        "name": "跨界云",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/kuajieyun/",
+        "minimumMonthly": "¥20",
+        "coupon": "`kuajie`",
+        "discounted": "¥16",
+        "couponConditions": "所有档位与周期（含两年/三年付）及重置包均可用，不限新老用户，未设有效期；⚠️ 跨界年付版（¥96/60GB）不适用",
+        "nodes": null,
+        "editorScore": "3.8 / 5（3 项计分）",
+        "independentTest": "⚠️ 仅第三方报告",
+        "test": null,
+        "unlock": {
+          "youtube": "✅ 通过",
+          "netflix": "✅ 通过",
+          "disney": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/kuajieyun.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "双来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "浪网",
+      "name": "浪网",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "❌ 无"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥30",
+          "discounted": null,
+          "coupon": "lw88",
+          "conditions": null
+        },
+        {
+          "source": "jichangcha",
+          "price": "9.9 元/月 80GB(年付 119 元)",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [],
+      "tags": [
+        "高端机场"
+      ],
+      "details": {
+        "slug": "langwang",
+        "name": "浪网",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/langwang/",
+        "minimumMonthly": "¥30",
+        "coupon": "`lw88`",
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": null,
+        "editorScore": "数据不足，不给分",
+        "independentTest": "❌ 无",
+        "test": null,
+        "unlock": null,
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/langwang.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "双来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "灵动云",
+      "name": "灵动云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "❌ 无"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "✅ 站长实测"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥20",
+          "discounted": null,
+          "coupon": "ld88",
+          "conditions": null
+        },
+        {
+          "source": "jichangcha",
+          "price": "8.3 元/月 70GB(年付 99 元)",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [],
+      "tags": [
+        "高端机场",
+        "站长实测"
+      ],
+      "details": {
+        "slug": "lingdongyun",
+        "name": "灵动云",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/lingdongyun/",
+        "minimumMonthly": "¥20",
+        "coupon": "`ld88`",
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": null,
+        "editorScore": "数据不足，不给分",
+        "independentTest": "❌ 无",
+        "test": null,
+        "unlock": null,
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/lingdongyun.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "双来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "灵猫网络",
+      "name": "灵猫网络",
+      "aliases": [
+        "灵猫"
+      ],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥85/年 45GB起"
+        },
+        {
+          "source": "jichangcha",
+          "price": "7.1 元/月 45GB(年付 85 元)",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [
+        "IPLC页面口径"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "总榜收录",
+        "客户端接入",
+        "短周期验证",
+        "稳定机场"
+      ],
+      "details": null,
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "双来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "暮光加速",
+      "name": "暮光加速",
+      "aliases": [
+        "暮光网络"
+      ],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "❌ 无"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥20",
+          "discounted": null,
+          "coupon": "mm88",
+          "conditions": null
+        },
+        {
+          "source": "jichangcha",
+          "price": "9.1 元/月 70GB(年付 109 元)",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [],
+      "tags": [
+        "高端机场"
+      ],
+      "details": {
+        "slug": "muguang",
+        "name": "暮光加速",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/muguang/",
+        "minimumMonthly": "¥20",
+        "coupon": "`mm88`",
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": null,
+        "editorScore": "数据不足，不给分",
+        "independentTest": "❌ 无",
+        "test": null,
+        "unlock": null,
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/muguang.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "双来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "拼好连",
+      "name": "拼好连",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "❌ 无"
+        },
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥9.9",
+          "discounted": null,
+          "coupon": null,
+          "conditions": null
+        },
+        {
+          "source": "vpsknow",
+          "price": "¥9.90/月起"
+        }
+      ],
+      "lineTypes": [
+        "BGP/IEPL口径"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "总榜收录",
+        "AI解锁",
+        "低价月付"
+      ],
+      "details": {
+        "slug": "pinhaolian",
+        "name": "拼好连",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/pinhaolian/",
+        "minimumMonthly": "¥9.9",
+        "coupon": null,
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": null,
+        "editorScore": "数据不足，不给分",
+        "independentTest": "❌ 无",
+        "test": null,
+        "unlock": null,
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/pinhaolian.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "双来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "闪跃",
+      "name": "闪跃",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "⚠️ 仅第三方报告"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥24",
+          "discounted": "¥19.2",
+          "coupon": "shanyue",
+          "conditions": "新人优惠，限用 1 次；适用于闪动 / 飞跃 / 瞬移 / 跃迁四档，月付至三年付均可"
+        },
+        {
+          "source": "jichangcha",
+          "price": "8 元/月 60GB(年付 96 元)",
+          "coupon": "shanyue"
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [
+        "youtube",
+        "netflix",
+        "disney"
+      ],
+      "tags": [
+        "稳定机场"
+      ],
+      "details": {
+        "slug": "shanyue",
+        "name": "闪跃",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/shanyue/",
+        "minimumMonthly": "¥24",
+        "coupon": "`shanyue`",
+        "discounted": "¥19.2",
+        "couponConditions": "新人优惠，限用 1 次；适用于闪动 / 飞跃 / 瞬移 / 跃迁四档，月付至三年付均可",
+        "nodes": null,
+        "editorScore": "3.6 / 5（3 项计分）",
+        "independentTest": "⚠️ 仅第三方报告",
+        "test": null,
+        "unlock": {
+          "youtube": "✅ 通过",
+          "netflix": "✅ 通过",
+          "disney": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/shanyue.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "双来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "梯子云",
+      "name": "梯子云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "❌ 无"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥25",
+          "discounted": null,
+          "coupon": "tiziyun",
+          "conditions": null
+        },
+        {
+          "source": "jichangcha",
+          "price": "7.4 元/月 60GB(年付 89 元)",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [],
+      "tags": [
+        "高端机场"
+      ],
+      "details": {
+        "slug": "tiziyun",
+        "name": "梯子云",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/tiziyun/",
+        "minimumMonthly": "¥25",
+        "coupon": "`tiziyun`",
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": null,
+        "editorScore": "数据不足，不给分",
+        "independentTest": "❌ 无",
+        "test": null,
+        "unlock": null,
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/tiziyun.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "双来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "无忧链接",
+      "name": "无忧链接",
+      "aliases": [
+        "无忧"
+      ],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "❌ 无"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥19",
+          "discounted": "¥12.92",
+          "coupon": "wuyou666",
+          "conditions": "仅限新用户首单；¥79 MINI 年付包不适用"
+        },
+        {
+          "source": "jichangcha",
+          "price": "6.6 元/月 40GB(年付 79 元)",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [],
+      "tags": [
+        "稳定机场"
+      ],
+      "details": {
+        "slug": "wuyoulianjie",
+        "name": "无忧链接",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/wuyoulianjie/",
+        "minimumMonthly": "¥19",
+        "coupon": "`wuyou666`",
+        "discounted": "¥12.92",
+        "couponConditions": "仅限新用户首单；¥79 MINI 年付包不适用",
+        "nodes": null,
+        "editorScore": "数据不足，不给分",
+        "independentTest": "❌ 无",
+        "test": null,
+        "unlock": null,
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/wuyoulianjie.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "双来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "隐形人",
+      "name": "隐形人",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "❌ 无"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥24",
+          "discounted": null,
+          "coupon": "yxr888",
+          "conditions": null
+        },
+        {
+          "source": "jichangcha",
+          "price": "9.1 元/月 80GB(年付 109 元)",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [],
+      "tags": [
+        "高端机场"
+      ],
+      "details": {
+        "slug": "yinxingren",
+        "name": "隐形人",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/yinxingren/",
+        "minimumMonthly": "¥24",
+        "coupon": "`yxr888`",
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": null,
+        "editorScore": "数据不足，不给分",
+        "independentTest": "❌ 无",
+        "test": null,
+        "unlock": null,
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/yinxingren.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "双来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "firefly",
+      "name": "Firefly",
+      "aliases": [
+        "飞为"
+      ],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "❌ 无"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥25",
+          "discounted": "¥20",
+          "coupon": "firefly",
+          "conditions": "仅限新用户首单；¥96 年付版不适用"
+        },
+        {
+          "source": "jichangcha",
+          "price": "8 元/月 60GB(年付 96 元)",
+          "coupon": "firefly"
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [],
+      "tags": [
+        "历史晚高峰实测",
+        "稳定机场"
+      ],
+      "details": {
+        "slug": "firefly",
+        "name": "Firefly",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/firefly/",
+        "minimumMonthly": "¥25",
+        "coupon": "`firefly`",
+        "discounted": "¥20",
+        "couponConditions": "仅限新用户首单；¥96 年付版不适用",
+        "nodes": null,
+        "editorScore": "数据不足，不给分",
+        "independentTest": "❌ 无",
+        "test": {
+          "regions": []
+        },
+        "unlock": null,
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/firefly.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "双来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "flyv",
+      "name": "FlyV",
+      "aliases": [
+        "飞V"
+      ],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "❌ 无"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📋 套餐已核验"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥25",
+          "discounted": null,
+          "coupon": "fly20",
+          "conditions": null
+        },
+        {
+          "source": "jichangcha",
+          "price": "8.3 元/月 65GB(年付 99 元)",
+          "coupon": null
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [],
+      "tags": [
+        "历史晚高峰实测",
+        "高端机场"
+      ],
+      "details": {
+        "slug": "flyv",
+        "name": "FlyV",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/flyv/",
+        "minimumMonthly": "¥25",
+        "coupon": "`fly20`",
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": null,
+        "editorScore": "数据不足，不给分",
+        "independentTest": "❌ 无",
+        "test": {
+          "regions": []
+        },
+        "unlock": null,
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/flyv.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "双来源收录",
+      "riskReference": null
+    },
+    {
+      "id": "sogo云",
+      "name": "sogo云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "✅ 有"
+        },
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📝 资料整理"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥25",
+          "discounted": "¥22",
+          "coupon": "SOGO88",
+          "conditions": "SOGO88，全场 88 折"
+        },
+        {
+          "source": "jichangcha",
+          "price": "25 元/月 150GB",
+          "coupon": "SOGO10000"
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [
+        "netflix",
+        "youtube",
+        "disney",
+        "chatgpt",
+        "gemini"
+      ],
+      "tags": [
+        "历史晚高峰实测",
+        "性价比机场"
+      ],
+      "details": {
+        "slug": "sogoyun",
+        "name": "sogo云",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/sogoyun/",
+        "minimumMonthly": "¥25",
+        "coupon": "`SOGO88`",
+        "discounted": "¥22",
+        "couponConditions": "SOGO88，全场 88 折",
+        "nodes": "45 / 45",
+        "editorScore": "4.1 / 5（5 项计分）",
+        "independentTest": "✅ 有",
+        "test": {
+          "collectedAt": "2026-07-21 21:52",
+          "entry": "A-成都电信@2Gbps",
+          "regions": [
+            {
+              "region": "香港（10 个节点中位）",
+              "medianDownload": "102.82 MB/s",
+              "medianLatency": "37 ms"
+            },
+            {
+              "region": "台湾（4 个节点中位）",
+              "medianDownload": "91.56 MB/s",
+              "medianLatency": "47.5 ms"
+            },
+            {
+              "region": "日本（10 个节点中位）",
+              "medianDownload": "122.15 MB/s",
+              "medianLatency": "83.5 ms"
+            },
+            {
+              "region": "新加坡（5 个节点中位）",
+              "medianDownload": "74.22 MB/s",
+              "medianLatency": "72 ms"
+            },
+            {
+              "region": "美国（4 个节点中位）",
+              "medianDownload": "113.83 MB/s",
+              "medianLatency": "180 ms"
+            },
+            {
+              "region": "韩国（4 个节点中位）",
+              "medianDownload": "121.31 MB/s",
+              "medianLatency": "123.5 ms"
+            },
+            {
+              "region": "英国（4 个节点中位）",
+              "medianDownload": "87.98 MB/s",
+              "medianLatency": "217 ms"
+            },
+            {
+              "region": "德国（4 个节点中位）",
+              "medianDownload": "79.72 MB/s",
+              "medianLatency": "207.5 ms"
+            }
+          ]
+        },
+        "unlock": {
+          "netflix": "✅ 通过",
+          "youtube": "✅ 通过",
+          "disney": "✅ 通过",
+          "chatgpt": "✅ 通过",
+          "gemini": "✅ 通过"
+        },
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/sogoyun.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 2,
+      "status": "candidate-multi",
+      "confidence": "含历史实测",
+      "riskReference": null
+    },
+    {
+      "id": "边界云加速器",
+      "name": "边界云加速器",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥9.97 / 月 50G"
+        }
+      ],
+      "lineTypes": [
+        "优化中转（官网称 IEPL 优化线路 · 尊享 Pro 含国内低延迟专线入口）"
+      ],
+      "protocols": [
+        "VLESS"
+      ],
+      "unlock": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Netflix",
+        "Disney+",
+        "YouTube 4K"
+      ],
+      "tags": [
+        "AI 优化 + 稳定办公"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "超级飞鱼",
+      "name": "超级飞鱼",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥6/月 80GB起"
+        }
+      ],
+      "lineTypes": [
+        "VLESS节点"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "VLESS",
+        "低价备用",
+        "AI解锁"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "超实惠加速",
+      "name": "超实惠加速",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥15 / 月"
+        }
+      ],
+      "lineTypes": [
+        "中转 / 直连（以官网为准）"
+      ],
+      "protocols": [
+        "Shadowsocks",
+        "Trojan",
+        "VLESS"
+      ],
+      "unlock": [
+        "Netflix",
+        "ChatGPT",
+        "Emby 影视库"
+      ],
+      "tags": [
+        "高性价比 / Emby 影音"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "蛋挞",
+      "name": "蛋挞机场",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥12 / 月 99G"
+        }
+      ],
+      "lineTypes": [
+        "公网隧道中转 + IEPL 专线"
+      ],
+      "protocols": [
+        "Shadowsocks"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "YouTube Premium",
+        "ChatGPT",
+        "TikTok"
+      ],
+      "tags": [
+        "多入口进阶"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "顶级",
+      "name": "顶级机场",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥5 / 月"
+        }
+      ],
+      "lineTypes": [
+        "公网直连"
+      ],
+      "protocols": [
+        "Hysteria2",
+        "VLESS"
+      ],
+      "unlock": [
+        "YouTube",
+        "ChatGPT"
+      ],
+      "tags": [
+        "价格敏感重流量"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "动力港",
+      "name": "动力港",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "yyds",
+          "label": "机场YYDS 30 家档案",
+          "url": "https://github.com/jichangyyds-net/jichang-tuijian-shice",
+          "asOf": "2026-08-23",
+          "updated": "2026-09-15",
+          "kind": "详细档案与历史实测",
+          "evidence": "❌ 无"
+        }
+      ],
+      "offers": [
+        {
+          "source": "yyds",
+          "price": "¥8",
+          "discounted": null,
+          "coupon": null,
+          "conditions": null
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [],
+      "tags": [
+        "历史晚高峰实测"
+      ],
+      "details": {
+        "slug": "dongligang",
+        "name": "动力港",
+        "dataSnapshot": "2026-08-23",
+        "profile": "https://www.jichangyyds.com/brands/dongligang/",
+        "minimumMonthly": "¥8",
+        "coupon": null,
+        "discounted": null,
+        "couponConditions": null,
+        "nodes": "70",
+        "editorScore": "3.2 / 5（3 项计分）",
+        "independentTest": "❌ 无",
+        "test": {
+          "regions": []
+        },
+        "unlock": null,
+        "source": "https://github.com/jichangyyds-net/jichang-tuijian-shice/blob/main/docs/brands/dongligang.md",
+        "status": "source-reported-active",
+        "statusLabel": "🟢 来源快照在营",
+        "repositoryCheckedOn": "2026-09-26"
+      },
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "尔湾云",
+      "name": "尔湾云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📝 资料整理"
+        }
+      ],
+      "offers": [
+        {
+          "source": "jichangcha",
+          "price": "年付低至 69 折 · 码 year69",
+          "coupon": "year69"
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [],
+      "tags": [
+        "性价比机场"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "飞狗",
+      "name": "飞狗",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥6 / 月 500G"
+        }
+      ],
+      "lineTypes": [
+        "公网隧道中转"
+      ],
+      "protocols": [
+        "Hysteria2",
+        "VLESS",
+        "AnyTLS"
+      ],
+      "unlock": [
+        "Netflix",
+        "YouTube",
+        "ChatGPT"
+      ],
+      "tags": [
+        "大流量低价 · 不限设备"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "好鸭",
+      "name": "好鸭",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥12 / 月"
+        }
+      ],
+      "lineTypes": [
+        "多入口隧道中转"
+      ],
+      "protocols": [
+        "Shadowsocks"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "YouTube",
+        "ChatGPT",
+        "Emby 影视库"
+      ],
+      "tags": [
+        "追剧兼解锁"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "红杏云",
+      "name": "红杏云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥20 / 月 200G"
+        }
+      ],
+      "lineTypes": [
+        "IEPL 专线"
+      ],
+      "protocols": [
+        "Trojan",
+        "Hysteria2"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT",
+        "Emby 影视库"
+      ],
+      "tags": [
+        "流媒体 / 大流量性价比"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "寰宇云",
+      "name": "寰宇云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "当前套餐待复核"
+        }
+      ],
+      "lineTypes": [
+        "线路待重新核对"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "运营变更",
+        "总榜收录",
+        "短周期测试"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "极速",
+      "name": "极速机场",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥12 / 年 200G"
+        }
+      ],
+      "lineTypes": [
+        "中转（多线路）"
+      ],
+      "protocols": [
+        "Shadowsocks",
+        "Trojan",
+        "Hysteria2"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT"
+      ],
+      "tags": [
+        "预算优先入门"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "疾风云",
+      "name": "疾风云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📝 资料整理"
+        }
+      ],
+      "offers": [
+        {
+          "source": "jichangcha",
+          "price": "年付 6.9 折起 · 码 jf5169",
+          "coupon": "jf5169"
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [],
+      "tags": [
+        "性价比机场"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "锦云",
+      "name": "锦云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥4.8/月 50GB起"
+        }
+      ],
+      "lineTypes": [
+        "Vless节点"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "AI解锁",
+        "低价入门",
+        "短周期先试"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "九云",
+      "name": "九云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥6/月 150GB起"
+        }
+      ],
+      "lineTypes": [
+        "海外中转"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "总榜收录",
+        "低价月付",
+        "AI页面可访问"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "卷王",
+      "name": "卷王机场",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥20 / 年 100G"
+        }
+      ],
+      "lineTypes": [
+        "公网隧道中转"
+      ],
+      "protocols": [
+        "Hysteria",
+        "Trojan",
+        "VLESS",
+        "VMess"
+      ],
+      "unlock": [
+        "ChatGPT",
+        "TikTok"
+      ],
+      "tags": [
+        "多设备不限 · 年付党"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "肯の机",
+      "name": "肯の机",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥40/月 100GB起"
+        }
+      ],
+      "lineTypes": [
+        "CN2 GIA/9929/CMIN2"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "高端线路",
+        "多协议",
+        "短周期先试"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "跨境cloud",
+      "name": "跨境Cloud",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥15.9 / 月 100G"
+        }
+      ],
+      "lineTypes": [
+        "全系 IPLC/IEPL 专线（三档会员分级）"
+      ],
+      "protocols": [
+        "Trojan"
+      ],
+      "unlock": [
+        "Netflix",
+        "HBO",
+        "Disney+",
+        "ChatGPT",
+        "Gemini"
+      ],
+      "tags": [
+        "跨境电商 / 商用出海专线"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "快雷go",
+      "name": "快雷GO",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥20 / 月 150G"
+        }
+      ],
+      "lineTypes": [
+        "IEPL 专线 + 直连"
+      ],
+      "protocols": [
+        "AnyTLS",
+        "VLESS"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT",
+        "TikTok"
+      ],
+      "tags": [
+        "专线加速 · 全设备档"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "鲤云",
+      "name": "鲤云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥7/月 50GB起"
+        }
+      ],
+      "lineTypes": [
+        "VLESS节点"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "AI解锁",
+        "低价入门",
+        "短周期先试"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "良心云",
+      "name": "良心云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥2 / 月 100G"
+        }
+      ],
+      "lineTypes": [
+        "AWS 直连线路"
+      ],
+      "protocols": [
+        "VLESS",
+        "Hysteria2"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT",
+        "TikTok"
+      ],
+      "tags": [
+        "低价尝鲜党"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "凌云加速",
+      "name": "凌云加速",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥10.9 / 月"
+        }
+      ],
+      "lineTypes": [
+        "中转（线路细节未公开确认）"
+      ],
+      "protocols": [
+        "Shadowsocks",
+        "Trojan",
+        "VMess"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT"
+      ],
+      "tags": [
+        "低价尝鲜"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "流量光",
+      "name": "流量光",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥9.9 / 月"
+        }
+      ],
+      "lineTypes": [
+        "BGP 中转 + 专线可选"
+      ],
+      "protocols": [
+        "Trojan",
+        "Shadowsocks"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "HBO",
+        "Spotify",
+        "TikTok",
+        "ChatGPT"
+      ],
+      "tags": [
+        "流媒体重度"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "conflict-current",
+      "confidence": "近期来源冲突",
+      "riskReference": {
+        "id": "流量光",
+        "eventCount": 2,
+        "latest": {
+          "date": "2025-10-09",
+          "year": 2025,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "两个来源均报告节点与订阅失效；另有官网异常跳转记录。",
+          "scope": "recent"
+        }
+      }
+    },
+    {
+      "id": "龙猫云",
+      "name": "龙猫云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥15/月 100GB起"
+        }
+      ],
+      "lineTypes": [
+        "IPLC专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "总榜收录",
+        "IPLC专线",
+        "短周期验证"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "喵喵vpn",
+      "name": "喵喵VPN",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥20/100GB起（一次性）"
+        }
+      ],
+      "lineTypes": [
+        "Hysteria2直连"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "Hysteria2",
+        "不限时流量",
+        "按量备用"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "秒秒云",
+      "name": "秒秒云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥14/月起（年付¥79起）"
+        }
+      ],
+      "lineTypes": [
+        "隧道中转"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "高性价比",
+        "AnyTLS",
+        "不限时可选"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "魔戒",
+      "name": "魔戒",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "按GB计费"
+        }
+      ],
+      "lineTypes": [
+        "公网中转"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "老牌",
+        "按量",
+        "长期备用"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "牛逼",
+      "name": "牛逼",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥7.4 / 月"
+        }
+      ],
+      "lineTypes": [
+        "公网中转 + 直连混合"
+      ],
+      "protocols": [
+        "Shadowsocks",
+        "VMess",
+        "Trojan"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT"
+      ],
+      "tags": [
+        "大流量党"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "赔钱",
+      "name": "赔钱机场",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥1.99 / 月"
+        }
+      ],
+      "lineTypes": [
+        "全直连 / 部分中转"
+      ],
+      "protocols": [
+        "Shadowsocks",
+        "Trojan",
+        "VMess",
+        "VLESS",
+        "Hysteria2"
+      ],
+      "unlock": [
+        "Netflix",
+        "ChatGPT",
+        "TikTok"
+      ],
+      "tags": [
+        "极致低价备用"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "conflict-history",
+      "confidence": "同名历史风险记录",
+      "riskReference": {
+        "id": "赔钱",
+        "eventCount": 1,
+        "latest": {
+          "date": "06.18.2023",
+          "year": 2023,
+          "status": "已跑路/高风险",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      }
+    },
+    {
+      "id": "轻语",
+      "name": "轻语机场",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥10/月起"
+        }
+      ],
+      "lineTypes": [
+        "AnyTLS/IEPL"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "AI解锁",
+        "Emby影音",
+        "低价入门"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "清风云",
+      "name": "清风云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥12 / 月 100G"
+        }
+      ],
+      "lineTypes": [
+        "公网隧道中转"
+      ],
+      "protocols": [
+        "AnyTLS",
+        "VLESS",
+        "Hysteria",
+        "Shadowsocks"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT",
+        "Emby 影视库"
+      ],
+      "tags": [
+        "Emby 追剧 / 流量翻倍"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "山水云",
+      "name": "山水云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥12/月 100GB起（年付¥77起）"
+        }
+      ],
+      "lineTypes": [
+        "VLESS/通用订阅"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "低价入门",
+        "通用订阅",
+        "短周期先试"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "神龙",
+      "name": "神龙",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥10 / 月 100G"
+        }
+      ],
+      "lineTypes": [
+        "全线 IEPL 专线"
+      ],
+      "protocols": [
+        "Shadowsocks",
+        "VMess",
+        "Trojan"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT"
+      ],
+      "tags": [
+        "IEPL 专线 · 永久流量"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "守候",
+      "name": "守候",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥15 / 月"
+        }
+      ],
+      "lineTypes": [
+        "公网中转 + IPLC 专线"
+      ],
+      "protocols": [
+        "Shadowsocks"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT",
+        "Emby 影视库"
+      ],
+      "tags": [
+        "稳健老用户 / Emby 影音"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "顺畅网络",
+      "name": "顺畅网络",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥11 / 月 500G"
+        }
+      ],
+      "lineTypes": [
+        "线路类型官网未公开（另有 ¥900/月 专线定制档）"
+      ],
+      "protocols": [
+        "以官网订阅为准"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "YouTube"
+      ],
+      "tags": [
+        "年付白菜价 · 计费最全"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "瞬云",
+      "name": "瞬云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥16/月起（优惠后）"
+        }
+      ],
+      "lineTypes": [
+        "ANYCAST专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "原生节点",
+        "流媒体解锁",
+        "高性价比"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "糖果云",
+      "name": "糖果云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥18 / 月 100G"
+        }
+      ],
+      "lineTypes": [
+        "IEPL 专线"
+      ],
+      "protocols": [
+        "Shadowsocks",
+        "V2Ray"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT",
+        "Emby 影视库"
+      ],
+      "tags": [
+        "影视追剧旗舰"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "淘气兔",
+      "name": "淘气兔",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥7.8 / 月"
+        }
+      ],
+      "lineTypes": [
+        "中转 + IEPL 专线"
+      ],
+      "protocols": [
+        "Shadowsocks",
+        "Trojan"
+      ],
+      "unlock": [
+        "Netflix",
+        "ChatGPT"
+      ],
+      "tags": [
+        "联通移动用户"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "网际快车",
+      "name": "网际快车",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "免费试用，¥6.8/20GB起"
+        }
+      ],
+      "lineTypes": [
+        "Vless/Hysteria2"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "白嫖",
+        "试用",
+        "按量备用"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "乌龟加速",
+      "name": "乌龟加速",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥18 / 月 200G"
+        }
+      ],
+      "lineTypes": [
+        "IEPL 专线（全系专线传输）"
+      ],
+      "protocols": [
+        "Hysteria2",
+        "Shadowsocks",
+        "Trojan"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT",
+        "YouTube",
+        "TikTok"
+      ],
+      "tags": [
+        "IEPL 专线 + EMBY 追剧"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "西部数据",
+      "name": "西部数据",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥17 / 200G"
+        }
+      ],
+      "lineTypes": [
+        "IEPL/IPLC 全专线"
+      ],
+      "protocols": [
+        "Trojan"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT"
+      ],
+      "tags": [
+        "稳定专线党"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "新华云",
+      "name": "新华云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥3.99/月起"
+        }
+      ],
+      "lineTypes": [
+        "隧道中转"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "高性价比",
+        "不限设备",
+        "学生党推荐"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "熊猫cloud",
+      "name": "熊猫cloud",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥8试用；¥7/月50GB"
+        }
+      ],
+      "lineTypes": [
+        "VLESS节点"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "VLESS",
+        "低价入门",
+        "短周期先试"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "雪山",
+      "name": "雪山机场",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥9.9 / 月"
+        }
+      ],
+      "lineTypes": [
+        "家宽 / 中转线路"
+      ],
+      "protocols": [
+        "Shadowsocks",
+        "Trojan",
+        "Hysteria2",
+        "VLESS"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT"
+      ],
+      "tags": [
+        "日常全能"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "杨帆云",
+      "name": "杨帆云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📝 资料整理"
+        }
+      ],
+      "offers": [
+        {
+          "source": "jichangcha",
+          "price": "年付 6.9 折起 · 码 yf6189",
+          "coupon": "yf6189"
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [],
+      "tags": [
+        "性价比机场"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "一分",
+      "name": "一分机场",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥2 / 月"
+        }
+      ],
+      "lineTypes": [
+        "直连（大厂云，无专线）"
+      ],
+      "protocols": [
+        "VLESS",
+        "Hysteria2"
+      ],
+      "unlock": [
+        "Netflix",
+        "ChatGPT",
+        "bilibili"
+      ],
+      "tags": [
+        "低价大流量"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "影子",
+      "name": "影子",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥18.80/月 150GB起"
+        }
+      ],
+      "lineTypes": [
+        "海外公有云中转"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "AnyTLS",
+        "多地区",
+        "公有云中转"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "优信云",
+      "name": "优信云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "jichangcha",
+          "label": "机场查 32 家镜像",
+          "url": "https://github.com/jichangx/2026-jichangcha-tuijian",
+          "asOf": "2026-09-25",
+          "updated": "2026-09-25",
+          "kind": "套餐核验与部分站长实测",
+          "evidence": "📝 资料整理"
+        }
+      ],
+      "offers": [
+        {
+          "source": "jichangcha",
+          "price": "15 元/月 100GB",
+          "coupon": "yx51666"
+        }
+      ],
+      "lineTypes": [],
+      "protocols": [],
+      "unlock": [],
+      "tags": [
+        "性价比机场"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "游隼云",
+      "name": "游隼云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥9 / 月 480G"
+        }
+      ],
+      "lineTypes": [
+        "三网优化中转"
+      ],
+      "protocols": [
+        "Shadowsocks",
+        "Trojan",
+        "Hysteria2"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT"
+      ],
+      "tags": [
+        "大流量月付"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "渔云",
+      "name": "渔云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥9 / 月"
+        }
+      ],
+      "lineTypes": [
+        "IEPL 专线 + 中转"
+      ],
+      "protocols": [
+        "VLESS",
+        "Hysteria2"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT",
+        "Emby 影视库"
+      ],
+      "tags": [
+        "长期稳定 / Emby 影音"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "自由猫",
+      "name": "自由猫",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥6 / 月"
+        }
+      ],
+      "lineTypes": [
+        "MPTCP 多路径中转"
+      ],
+      "protocols": [
+        "Shadowsocks",
+        "Trojan",
+        "VLESS"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT"
+      ],
+      "tags": [
+        "日常主力"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "amytelecom",
+      "name": "AmyTelecom",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥273/年起"
+        }
+      ],
+      "lineTypes": [
+        "IEPL专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "佩奇系",
+        "流媒体解锁",
+        "稳定"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "andycloud",
+      "name": "ANDY CLOUD",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥5/月 100GB起"
+        }
+      ],
+      "lineTypes": [
+        "海外中转"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "总榜收录",
+        "通用订阅",
+        "低价备用"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "bitznet",
+      "name": "Bitz Net",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "免费试用"
+        }
+      ],
+      "lineTypes": [
+        "SD-WAN"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "试用",
+        "SD-WAN",
+        "总榜收录"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "bywave",
+      "name": "Bywave",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥30/月起"
+        }
+      ],
+      "lineTypes": [
+        "IEPL专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "争议预警",
+        "EMBY",
+        "进阶"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "conflict-history",
+      "confidence": "同名历史风险记录",
+      "riskReference": {
+        "id": "bywave",
+        "eventCount": 1,
+        "latest": {
+          "date": "11.20.2022",
+          "year": 2022,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      }
+    },
+    {
+      "id": "cocoduckvpn",
+      "name": "COCODUCK VPN",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥17/月 100GB起"
+        }
+      ],
+      "lineTypes": [
+        "IEPL/BGP"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "VLESS",
+        "性价比",
+        "短周期先试"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "fastlink",
+      "name": "Fastlink",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥20/月起"
+        }
+      ],
+      "lineTypes": [
+        "BGP/IPLC页面口径"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "专用客户端",
+        "约30项节点",
+        "短周期先试"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "conflict-history",
+      "confidence": "同名历史风险记录",
+      "riskReference": {
+        "id": "fastlink",
+        "eventCount": 1,
+        "latest": {
+          "date": "06.03.2024",
+          "year": 2024,
+          "status": "跑路预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      }
+    },
+    {
+      "id": "flowercloud",
+      "name": "FlowerCloud",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥39/月起"
+        }
+      ],
+      "lineTypes": [
+        "BGP/IEPL专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "总榜收录",
+        "老牌",
+        "短周期复查"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "gatern",
+      "name": "Gatern",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥24/月起"
+        }
+      ],
+      "lineTypes": [
+        "跨境专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "按量/一次性",
+        "全球节点",
+        "一年有效期"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "hneko云",
+      "name": "Hneko云机场",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥7 / 月"
+        }
+      ],
+      "lineTypes": [
+        "公网隧道中转"
+      ],
+      "protocols": [
+        "Shadowsocks",
+        "Trojan",
+        "VMess"
+      ],
+      "unlock": [
+        "Netflix",
+        "ChatGPT"
+      ],
+      "tags": [
+        "大流量党"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "immtelecom",
+      "name": "ImmTelecom",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥72.45/月起"
+        }
+      ],
+      "lineTypes": [
+        "IEPL/IPLC专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "AnyTLS",
+        "多地区节点",
+        "高端"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "ktmcloud",
+      "name": "KTM Cloud",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥15 / 月 300G"
+        }
+      ],
+      "lineTypes": [
+        "CN2/BGP 中转 + 专线"
+      ],
+      "protocols": [
+        "VMess",
+        "Hysteria2"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT",
+        "TikTok"
+      ],
+      "tags": [
+        "大流量 / 性价比"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "kuromis",
+      "name": "Kuromis",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥34/月起"
+        }
+      ],
+      "lineTypes": [
+        "IEPL专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "贵族机场",
+        "IEPL专线",
+        "高峰期稳定"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "m78光之国",
+      "name": "M78光之国",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥8/月 100GB起"
+        }
+      ],
+      "lineTypes": [
+        "线路待核对"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "VLESS",
+        "AI解锁",
+        "低价备用"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "m78星云",
+      "name": "M78星云",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥12.8 / 月 150G"
+        }
+      ],
+      "lineTypes": [
+        "BGP 中转 + IEPL 游戏专线（含 Premium 线路）"
+      ],
+      "protocols": [
+        "Shadowsocks"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT"
+      ],
+      "tags": [
+        "稀有节点 + Emby 影视"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "mesl",
+      "name": "MESL",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥50/月起"
+        }
+      ],
+      "lineTypes": [
+        "IEPL专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "低调",
+        "高端线路",
+        "AI友好"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "mitce",
+      "name": "Mitce",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥4 / 月 100G"
+        }
+      ],
+      "lineTypes": [
+        "直连（部分 BGP 中转）"
+      ],
+      "protocols": [
+        "VLESS+Reality",
+        "Hysteria2"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT"
+      ],
+      "tags": [
+        "性价比 / 新手主推"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "nexitally",
+      "name": "Nexitally",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥74.55/月起"
+        }
+      ],
+      "lineTypes": [
+        "高端专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "总榜收录",
+        "老牌",
+        "流媒体"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "nice加速专线",
+      "name": "Nice加速专线机场",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥12/月 30GB起"
+        }
+      ],
+      "lineTypes": [
+        "南北双通道专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ✅"
+      ],
+      "tags": [
+        "AI解锁",
+        "美国台湾家宽",
+        "短周期先试"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "nicecloud",
+      "name": "NiceCloud",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥12 / 月起"
+        }
+      ],
+      "lineTypes": [
+        "公网中转隧道"
+      ],
+      "protocols": [
+        "Shadowsocks",
+        "SSR"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT",
+        "TikTok"
+      ],
+      "tags": [
+        "性价比 / 灵活流量"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "ouo",
+      "name": "OuO",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥10 / 月"
+        }
+      ],
+      "lineTypes": [
+        "公网隧道中转"
+      ],
+      "protocols": [
+        "Shadowsocks"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "YouTube",
+        "TikTok",
+        "ChatGPT"
+      ],
+      "tags": [
+        "多地区解锁"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "skylumo",
+      "name": "SKYLUMO",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥9.90起"
+        }
+      ],
+      "lineTypes": [
+        "公网中转"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "备用",
+        "不限时",
+        "大流量"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "ssrdog",
+      "name": "SsrDog",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥45/月 季付起"
+        }
+      ],
+      "lineTypes": [
+        "IPLC/IEPL专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ✅",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "流媒体",
+        "原生IP",
+        "注意季付起"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "tag",
+      "name": "TAG",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥114/月 500GB"
+        }
+      ],
+      "lineTypes": [
+        "线路架构待验证"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "全球节点",
+        "美国视频",
+        "注意倍率"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "tapcloud",
+      "name": "Tapcloud",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥12 / 月 100G"
+        }
+      ],
+      "lineTypes": [
+        "公网中转（含 IEPL 专线档）"
+      ],
+      "protocols": [
+        "VLESS-Vision",
+        "Hysteria2",
+        "AnyTLS"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "ChatGPT",
+        "MyTVSuper",
+        "HBO",
+        "Bahamut"
+      ],
+      "tags": [
+        "全平台流媒体解锁"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "tifa",
+      "name": "Tifa",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "signal",
+          "label": "SignalTower 对比表",
+          "url": "https://github.com/signaltowers/airport-recommendations-2026",
+          "asOf": "2026-07-26",
+          "updated": "2026-07-26",
+          "kind": "线路、协议与场景索引",
+          "evidence": "对比表收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "signal",
+          "price": "¥20 / 月 100G"
+        }
+      ],
+      "lineTypes": [
+        "线路未公开（登录后查节点状态）"
+      ],
+      "protocols": [
+        "以官网订阅为准"
+      ],
+      "unlock": [
+        "Netflix",
+        "Disney+",
+        "YouTube"
+      ],
+      "tags": [
+        "不限设备 · 平价口粮"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "tntcloud",
+      "name": "TNTCloud",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥20/月 110GB起"
+        }
+      ],
+      "lineTypes": [
+        "IPLC页面口径"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "IPLC",
+        "日本/美国节点",
+        "风险观察"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "vikinglinks",
+      "name": "ViKing Links",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥72/月 500GB"
+        }
+      ],
+      "lineTypes": [
+        "专线+优化直连"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "高端线路",
+        "Trojan",
+        "下单前复核"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "wgetcloud",
+      "name": "WgetCloud",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥79/月起"
+        }
+      ],
+      "lineTypes": [
+        "BGP专线"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "稳定",
+        "企业级",
+        "不差钱"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    },
+    {
+      "id": "ytoo",
+      "name": "YToo",
+      "aliases": [],
+      "sources": [
+        {
+          "id": "vpsknow",
+          "label": "VPSKnow 机场索引",
+          "url": "https://github.com/everett7623/airport-recommendations-2026",
+          "asOf": "2026-09-24",
+          "updated": "2026-09-24",
+          "kind": "自动同步索引",
+          "evidence": "索引收录"
+        }
+      ],
+      "offers": [
+        {
+          "source": "vpsknow",
+          "price": "¥98/年起"
+        }
+      ],
+      "lineTypes": [
+        "多线国际加速"
+      ],
+      "protocols": [],
+      "unlock": [
+        "流媒体 ❓",
+        "ChatGPT ❓"
+      ],
+      "tags": [
+        "总榜收录",
+        "全球覆盖",
+        "备用方案"
+      ],
+      "details": null,
+      "sourceCount": 1,
+      "status": "candidate-single",
+      "confidence": "待复核",
+      "riskReference": null
+    }
+  ]
+}

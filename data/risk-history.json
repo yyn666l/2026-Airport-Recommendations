@@ -1,0 +1,2955 @@
+{
+  "schemaVersion": 2,
+  "generatedOn": "2026-09-26",
+  "scope": "三个风险来源中的主体级聚合与事件时间线，覆盖 2020–2026。来源报告不等于本仓库已独立复现；同名可能不是同一运营主体。",
+  "summary": {
+    "entities": 102,
+    "events": 121,
+    "recentEntities": 34,
+    "historicalEntities": 81,
+    "recoveredOrWithdrawn": 4
+  },
+  "sources": [
+    {
+      "id": "limbopro",
+      "label": "Paolujichang 历史档案",
+      "url": "https://github.com/limbopro/Paolujichang",
+      "asOf": "2026-09-14",
+      "updated": "2026-09-14",
+      "kind": "2020–2025 社区风险档案"
+    },
+    {
+      "id": "risk2026",
+      "label": "2025–2026 风险整理",
+      "url": "https://github.com/jichang007/paolujichang2026",
+      "asOf": "2026-09",
+      "updated": "2026-09",
+      "kind": "近期停运与高风险汇总"
+    },
+    {
+      "id": "tizirisk",
+      "label": "机场天梯风险数据库",
+      "url": "https://github.com/jichangtianti/airport-status",
+      "asOf": "2026-08-07",
+      "updated": "2026-08",
+      "kind": "探针与社区风险记录"
+    }
+  ],
+  "records": [
+    {
+      "id": "洞墙dlercloud",
+      "name": "洞墙（DlerCloud）",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-02-26",
+          "year": 2026,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告官网、官方联系渠道及节点均停止工作。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2026
+    },
+    {
+      "id": "快帆云",
+      "name": "快帆云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-08-07",
+          "year": 2026,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告节点全线超时、订阅无法拉取、DNS 停止解析且售后解散。",
+          "scope": "recent"
+        },
+        {
+          "date": "02.26.2024",
+          "year": 2025,
+          "status": "跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        },
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2026
+    },
+    {
+      "id": "蜜糖云",
+      "name": "蜜糖云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-04-03",
+          "year": 2026,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告所有节点离线且客服、工单无人响应；官网即使可打开也不代表服务可用。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2026
+    },
+    {
+      "id": "奈云",
+      "name": "奈云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-06-09",
+          "year": 2026,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告官网、节点和订阅均失效，客服与公告渠道停止响应。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2026
+    },
+    {
+      "id": "忍者云",
+      "name": "忍者云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-04-10",
+          "year": 2026,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告节点异常持续较久，邮件、工单和 Telegram 停止响应，最终全面失联。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2026
+    },
+    {
+      "id": "十元一年",
+      "name": "十元一年",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-07-15",
+          "year": 2026,
+          "status": "🟠 来源报告高风险",
+          "summary": "来源报告超低价年付带来严重拥塞，晚高峰可用性很差。",
+          "scope": "recent"
+        },
+        {
+          "date": "10.30.2024",
+          "year": 2025,
+          "status": "客服态度及其恶劣",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        },
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2026
+    },
+    {
+      "id": "小火箭",
+      "name": "小火箭机场",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026 年初",
+          "year": 2026,
+          "status": "🟠 来源报告高风险",
+          "summary": "来源报告大量节点不可用、速度下降且工单长期无人回复。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2026
+    },
+    {
+      "id": "隐云",
+      "name": "隐云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-06-30",
+          "year": 2026,
+          "status": "🟠 来源报告高风险",
+          "summary": "来源报告官网、客服和大量节点异常，并提示与奈云存在可能的联动风险。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2026
+    },
+    {
+      "id": "aca",
+      "name": "ACA",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-07-20",
+          "year": 2026,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告中转服务器关停且运营团队失联。",
+          "scope": "recent"
+        },
+        {
+          "date": "01.14.2025",
+          "year": 2025,
+          "status": "跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        },
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2026
+    },
+    {
+      "id": "cac",
+      "name": "CAC",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-06-30",
+          "year": 2026,
+          "status": "🟠 来源报告高风险",
+          "summary": "来源报告官网与节点异常，并提示与奈云存在可能的联动风险。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2026
+    },
+    {
+      "id": "crelay",
+      "name": "Crelay",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-04",
+          "year": 2026,
+          "status": "🟠 来源报告高风险",
+          "summary": "来源报告大部分节点长期离线、工单无人处理，但网站仍可购买。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2026
+    },
+    {
+      "id": "duangcloud",
+      "name": "DuangCloud",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-06-30",
+          "year": 2026,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告官网内容清空、节点域名失效且售后渠道关闭。",
+          "scope": "recent"
+        },
+        {
+          "date": "09.01.2024",
+          "year": 2024,
+          "status": "跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        },
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2026
+    },
+    {
+      "id": "efcloud",
+      "name": "EFCloud",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-07-28",
+          "year": 2026,
+          "status": "🟠 来源结论冲突/高风险",
+          "summary": "一个来源标为已停运，另一来源标为服务异常；按更保守口径列入高风险，不写成独立确认的停运事实。",
+          "scope": "recent"
+        },
+        {
+          "date": "01.21.2025",
+          "year": 2025,
+          "status": "机场转让/用户套餐时长减半",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        },
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        },
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2026
+    },
+    {
+      "id": "koodog",
+      "name": "Koodog",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-06-01",
+          "year": 2026,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告官网异常跳转、节点与订阅失效，并出现集中不可用反馈。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2026
+    },
+    {
+      "id": "leensa",
+      "name": "leensa",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-06-12",
+          "year": 2026,
+          "status": "🟠 来源报告高风险",
+          "summary": "来源报告工单长期无人处理、订阅服务器超时且服务质量明显下降。",
+          "scope": "recent"
+        },
+        {
+          "date": "08.23.2024",
+          "year": 2024,
+          "status": "跑路预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        },
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2026
+    },
+    {
+      "id": "lray",
+      "name": "Lray",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-02-28",
+          "year": 2026,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告线路及专用客户端长期不可用，工单无回复，官网停止维护。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2026
+    },
+    {
+      "id": "okac",
+      "name": "OKAC",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-05-11",
+          "year": 2026,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告多条线路长期异常，出现补单与数据丢失问题，随后基本停止维护。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2026
+    },
+    {
+      "id": "sfcloudfccloud",
+      "name": "SFCloud / FCCloud",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-08-05",
+          "year": 2026,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "两个来源均将 FCCloud/SFCloud 列为不可用：官网或节点离线、售后停止响应。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        },
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2026
+    },
+    {
+      "id": "spcloud",
+      "name": "spcloud",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026-08-01",
+          "year": 2026,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告节点大面积离线、客服失联且官网暂停访问。",
+          "scope": "recent"
+        },
+        {
+          "date": "02.06.2025",
+          "year": 2025,
+          "status": "跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        },
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2026
+    },
+    {
+      "id": "teacat茶猫",
+      "name": "Teacat（茶猫）",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2026",
+          "year": 2026,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告官网、节点和用户后台停止工作，工单无人处理。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2026
+    },
+    {
+      "id": "阿童木",
+      "name": "阿童木",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2025-02-23",
+          "year": 2025,
+          "status": "🟠 来源报告高风险",
+          "summary": "来源报告大量节点无法连接、客服难以联系，同时仍持续售卖套餐。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2025
+    },
+    {
+      "id": "飞鸟云",
+      "name": "飞鸟云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2025-06-10",
+          "year": 2025,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告机房设备被封，维护更新与售后说明停止。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2025
+    },
+    {
+      "id": "极光加速",
+      "name": "极光加速",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2025-05-04",
+          "year": 2025,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告软件停止更新、中转服务器注销且客服通道关闭。",
+          "scope": "recent"
+        },
+        {
+          "date": "12.22.2022",
+          "year": 2023,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        },
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2025
+    },
+    {
+      "id": "极客云",
+      "name": "极客云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2025-07-22",
+          "year": 2025,
+          "status": "🟠 来源报告高风险",
+          "summary": "来源报告低价套餐被大幅限速并被引导购买更高价套餐。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2025
+    },
+    {
+      "id": "极速鸟",
+      "name": "极速鸟",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2025-02-14",
+          "year": 2025,
+          "status": "🟠 来源报告服务异常",
+          "summary": "来源报告线路质量下降，节点延迟普遍明显增加。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2025
+    },
+    {
+      "id": "流量光",
+      "name": "流量光",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2025-10-09",
+          "year": 2025,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "两个来源均报告节点与订阅失效；另有官网异常跳转记录。",
+          "scope": "recent"
+        },
+        {
+          "date": "06.27.2024",
+          "year": 2024,
+          "status": "跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        },
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        },
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2025
+    },
+    {
+      "id": "六尺巷",
+      "name": "六尺巷",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2025-12-25",
+          "year": 2025,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告节点整体关停，团队解散并停止技术支持。",
+          "scope": "recent"
+        },
+        {
+          "date": "08.15.2024",
+          "year": 2024,
+          "status": "跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        },
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2025
+    },
+    {
+      "id": "速鹰666",
+      "name": "速鹰666",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2025-01-08",
+          "year": 2025,
+          "status": "🟠 来源报告高风险",
+          "summary": "来源报告部分稳定线路要求老用户重新购买更高阶套餐。",
+          "scope": "recent"
+        },
+        {
+          "date": "06.09.2022",
+          "year": 2022,
+          "status": "已恢复",
+          "summary": "来源记录后续已恢复",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        },
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2025
+    },
+    {
+      "id": "小飞机",
+      "name": "小飞机",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2025-03-01",
+          "year": 2025,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告在大额年付促销后客服社群突然解散。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2025
+    },
+    {
+      "id": "小牛云",
+      "name": "小牛云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2025-12-01",
+          "year": 2025,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告长期不稳定且客服失联，虽仍能购买但服务基本停止。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "risk2026",
+          "label": "2025–2026 风险整理",
+          "url": "https://github.com/jichang007/paolujichang2026",
+          "asOf": "2026-09",
+          "updated": "2026-09",
+          "kind": "近期停运与高风险汇总"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2025
+    },
+    {
+      "id": "星光云",
+      "name": "星光云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2025-04-12",
+          "year": 2025,
+          "status": "🟠 来源报告高风险",
+          "summary": "来源报告频繁受攻击，晚高峰丢包和超时概率较高。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2025
+    },
+    {
+      "id": "云梯",
+      "name": "云梯",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2025-08-15",
+          "year": 2025,
+          "status": "🟠 来源报告服务异常",
+          "summary": "来源报告客服人员流失，晚高峰服务质量无法保障。",
+          "scope": "recent"
+        },
+        {
+          "date": "2021.03.12",
+          "year": 2021,
+          "status": "2021.03.12",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        },
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2025
+    },
+    {
+      "id": "bhcloud蜂巢",
+      "name": "BHcloud / 蜂巢",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2025-11-18",
+          "year": 2025,
+          "status": "🟠 来源报告高风险",
+          "summary": "来源报告套餐天数异常扣减，节点延迟抖动和超时频繁。",
+          "scope": "recent"
+        },
+        {
+          "date": "07.11.2024",
+          "year": 2024,
+          "status": "跑路预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        },
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2025
+    },
+    {
+      "id": "fccloud",
+      "name": "FCCloud",
+      "aliases": [],
+      "events": [
+        {
+          "date": "02.09.2025",
+          "year": 2025,
+          "status": "跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2025
+    },
+    {
+      "id": "v2club",
+      "name": "v2Club",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2025-09-02",
+          "year": 2025,
+          "status": "🔴 来源报告停运/失联",
+          "summary": "来源报告订阅内容被清空、节点全线超时且团队停止应答。",
+          "scope": "recent"
+        }
+      ],
+      "sources": [
+        {
+          "id": "tizirisk",
+          "label": "机场天梯风险数据库",
+          "url": "https://github.com/jichangtianti/airport-status",
+          "asOf": "2026-08-07",
+          "updated": "2026-08",
+          "kind": "探针与社区风险记录"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2025
+    },
+    {
+      "id": "冲浪猫clm",
+      "name": "冲浪猫/CLM",
+      "aliases": [],
+      "events": [
+        {
+          "date": "05.07.2024",
+          "year": 2024,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "萌喵",
+      "name": "萌喵",
+      "aliases": [],
+      "events": [
+        {
+          "date": "05.13.2024",
+          "year": 2024,
+          "status": "跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "牛牛很牛",
+      "name": "牛牛很牛",
+      "aliases": [],
+      "events": [
+        {
+          "date": "01.23.2024",
+          "year": 2024,
+          "status": "跑路预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "新云",
+      "name": "新云机场",
+      "aliases": [],
+      "events": [
+        {
+          "date": "06.03.2024",
+          "year": 2024,
+          "status": "跑路预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "影界网络",
+      "name": "影界网络",
+      "aliases": [],
+      "events": [
+        {
+          "date": "04.25.2024",
+          "year": 2024,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "自由鲸原心阶云",
+      "name": "自由鲸（原心阶云）",
+      "aliases": [],
+      "events": [
+        {
+          "date": "04.25.2024",
+          "year": 2024,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "boomcloud",
+      "name": "BoomCloud",
+      "aliases": [],
+      "events": [
+        {
+          "date": "05.09.2024",
+          "year": 2024,
+          "status": "跑路预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "chiselwall",
+      "name": "chiselwall",
+      "aliases": [],
+      "events": [
+        {
+          "date": "03.11.2024",
+          "year": 2024,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "creamdata奶油",
+      "name": "CreamData（奶油机场）",
+      "aliases": [],
+      "events": [
+        {
+          "date": "04.27.2024",
+          "year": 2024,
+          "status": "记录撤回",
+          "summary": "来源已撤回该记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "fastlink",
+      "name": "Fastlink",
+      "aliases": [],
+      "events": [
+        {
+          "date": "06.03.2024",
+          "year": 2024,
+          "status": "跑路预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "naiunet",
+      "name": "naiunet",
+      "aliases": [],
+      "events": [
+        {
+          "date": "03.11.2024",
+          "year": 2024,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "skicatcatree",
+      "name": "Skicat/Catree",
+      "aliases": [],
+      "events": [
+        {
+          "date": "04.25.2024",
+          "year": 2024,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "sockboom",
+      "name": "sockboom",
+      "aliases": [],
+      "events": [
+        {
+          "date": "02.01.2024",
+          "year": 2024,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "tly机场特洛伊baacloud",
+      "name": "TLY机场(特洛伊/BaaCloud)",
+      "aliases": [],
+      "events": [
+        {
+          "date": "04.25.2024",
+          "year": 2024,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "v2club蓝岸boomcloud子",
+      "name": "v2Club/蓝岸（BoomCloud子机场）",
+      "aliases": [],
+      "events": [
+        {
+          "date": "06.09.2024",
+          "year": 2024,
+          "status": "跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "xlmcloud",
+      "name": "XLM Cloud",
+      "aliases": [],
+      "events": [
+        {
+          "date": "06.03.2024",
+          "year": 2024,
+          "status": "跑路预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2024
+    },
+    {
+      "id": "33云",
+      "name": "33云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "12.29.2023",
+          "year": 2023,
+          "status": "跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2023
+    },
+    {
+      "id": "八方云",
+      "name": "八方云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "05.12.2023",
+          "year": 2023,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2023
+    },
+    {
+      "id": "超级跑车",
+      "name": "超级跑车",
+      "aliases": [],
+      "events": [
+        {
+          "date": "03.23.2023",
+          "year": 2023,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2023
+    },
+    {
+      "id": "大",
+      "name": "大机场",
+      "aliases": [],
+      "events": [
+        {
+          "date": "10.09.2023",
+          "year": 2023,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2023
+    },
+    {
+      "id": "古茗",
+      "name": "古茗机场",
+      "aliases": [],
+      "events": [
+        {
+          "date": "11.20.2023",
+          "year": 2023,
+          "status": "跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2023
+    },
+    {
+      "id": "魔法学院",
+      "name": "魔法学院",
+      "aliases": [],
+      "events": [
+        {
+          "date": "08.07.2023",
+          "year": 2023,
+          "status": "已跑路/高风险",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2023
+    },
+    {
+      "id": "泡泡狗",
+      "name": "泡泡狗",
+      "aliases": [],
+      "events": [
+        {
+          "date": "09.24.2023",
+          "year": 2023,
+          "status": "预警/高风险",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2023
+    },
+    {
+      "id": "泡泡云paopaocloud",
+      "name": "泡泡云/PaoPaoCloud",
+      "aliases": [],
+      "events": [
+        {
+          "date": "08.09.2023",
+          "year": 2023,
+          "status": "已跑路/高风险",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2023
+    },
+    {
+      "id": "赔钱",
+      "name": "赔钱机场",
+      "aliases": [],
+      "events": [
+        {
+          "date": "06.18.2023",
+          "year": 2023,
+          "status": "已跑路/高风险",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2023
+    },
+    {
+      "id": "七七云",
+      "name": "七七云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "06.02.2023",
+          "year": 2023,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2023
+    },
+    {
+      "id": "数云",
+      "name": "数云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "01.21.2023",
+          "year": 2023,
+          "status": "官网已离线",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2023
+    },
+    {
+      "id": "云云云",
+      "name": "云云云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "03.27.2023",
+          "year": 2023,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2023
+    },
+    {
+      "id": "guguex",
+      "name": "GuguEx",
+      "aliases": [],
+      "events": [
+        {
+          "date": "02.18.2023",
+          "year": 2023,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2023
+    },
+    {
+      "id": "4kxray",
+      "name": "4kxray机场",
+      "aliases": [],
+      "events": [
+        {
+          "date": "02.18.2022",
+          "year": 2022,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2022
+    },
+    {
+      "id": "猫猫云",
+      "name": "猫猫云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "12.19.2022",
+          "year": 2022,
+          "status": "12.19.2022",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        },
+        {
+          "date": "11.11.2022",
+          "year": 2022,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2022
+    },
+    {
+      "id": "魔晶云",
+      "name": "魔晶云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "10.30.2022",
+          "year": 2022,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2022
+    },
+    {
+      "id": "泡芙云",
+      "name": "泡芙云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "08.08.2022",
+          "year": 2022,
+          "status": "记录撤回",
+          "summary": "来源已撤回该记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2022
+    },
+    {
+      "id": "世外桃源",
+      "name": "世外桃源",
+      "aliases": [],
+      "events": [
+        {
+          "date": "09.03.2022",
+          "year": 2022,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        },
+        {
+          "date": "09.03.2022",
+          "year": 2022,
+          "status": "09.03.2022",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2022
+    },
+    {
+      "id": "速蛙云",
+      "name": "速蛙云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "07.30.2022",
+          "year": 2022,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        },
+        {
+          "date": "07.30.2022",
+          "year": 2022,
+          "status": "07.30.2022",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2022
+    },
+    {
+      "id": "腾龙加速器",
+      "name": "腾龙加速器",
+      "aliases": [],
+      "events": [
+        {
+          "date": "11.12.2022",
+          "year": 2022,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        },
+        {
+          "date": "11.08.2022",
+          "year": 2022,
+          "status": "11.08.2022",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2022
+    },
+    {
+      "id": "修罗云",
+      "name": "修罗云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "03.18.2022",
+          "year": 2022,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2022
+    },
+    {
+      "id": "樱花云",
+      "name": "樱花云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "05.14.2022",
+          "year": 2022,
+          "status": "跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2022
+    },
+    {
+      "id": "纸飞机",
+      "name": "纸飞机",
+      "aliases": [],
+      "events": [
+        {
+          "date": "08.22.2022",
+          "year": 2022,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2022
+    },
+    {
+      "id": "aaex",
+      "name": "AAEX",
+      "aliases": [],
+      "events": [
+        {
+          "date": "06.30.2022",
+          "year": 2022,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        },
+        {
+          "date": "06.13.2022",
+          "year": 2022,
+          "status": "06.30.2022 参阅",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2022
+    },
+    {
+      "id": "blinkload",
+      "name": "Blinkload",
+      "aliases": [],
+      "events": [
+        {
+          "date": "09.18.2022",
+          "year": 2022,
+          "status": "已跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        },
+        {
+          "date": "09.17.2022",
+          "year": 2022,
+          "status": "09.18.2022",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 2,
+      "latestYear": 2022
+    },
+    {
+      "id": "bywave",
+      "name": "Bywave",
+      "aliases": [
+        "bywave机场"
+      ],
+      "events": [
+        {
+          "date": "11.20.2022",
+          "year": 2022,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2022
+    },
+    {
+      "id": "chainlink",
+      "name": "ChainLink",
+      "aliases": [],
+      "events": [
+        {
+          "date": "07.30.2022",
+          "year": 2022,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2022
+    },
+    {
+      "id": "miru",
+      "name": "miru",
+      "aliases": [],
+      "events": [
+        {
+          "date": "10.30.2022",
+          "year": 2022,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2022
+    },
+    {
+      "id": "mosucloud",
+      "name": "MosuCloud",
+      "aliases": [],
+      "events": [
+        {
+          "date": "09.21.2022",
+          "year": 2022,
+          "status": "09.21.2022",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2022
+    },
+    {
+      "id": "socketpro",
+      "name": "socketpro",
+      "aliases": [],
+      "events": [
+        {
+          "date": "06.21.2022",
+          "year": 2022,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2022
+    },
+    {
+      "id": "ttnetcloud",
+      "name": "TTNet Cloud (机场)",
+      "aliases": [],
+      "events": [
+        {
+          "date": "05.23.2022",
+          "year": 2022,
+          "status": "跑路",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2022
+    },
+    {
+      "id": "vechain",
+      "name": "VeChain",
+      "aliases": [],
+      "events": [
+        {
+          "date": "07.30.2022",
+          "year": 2022,
+          "status": "预警",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2022
+    },
+    {
+      "id": "快狸猫",
+      "name": "快狸猫机场",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2021.08",
+          "year": 2021,
+          "status": "2021.08",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2021
+    },
+    {
+      "id": "垃圾云",
+      "name": "垃圾云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "08.2021",
+          "year": 2021,
+          "status": "08.2021",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2021
+    },
+    {
+      "id": "路飞船长",
+      "name": "路飞船长",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2021.03.12",
+          "year": 2021,
+          "status": "记录撤回",
+          "summary": "来源已撤回该记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2021
+    },
+    {
+      "id": "airixcloud",
+      "name": "AirixCloud",
+      "aliases": [],
+      "events": [
+        {
+          "date": "虚无",
+          "year": 2021,
+          "status": "虚无",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2021
+    },
+    {
+      "id": "conair",
+      "name": "Conair",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2021.03.12",
+          "year": 2021,
+          "status": "2021.03.12",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2021
+    },
+    {
+      "id": "p++",
+      "name": "P++机场",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2021.08.06",
+          "year": 2021,
+          "status": "2021.08.06",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2021
+    },
+    {
+      "id": "piyou",
+      "name": "PIYOU",
+      "aliases": [],
+      "events": [
+        {
+          "date": "08.2021",
+          "year": 2021,
+          "status": "08.2021",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2021
+    },
+    {
+      "id": "w8ves原yoyu",
+      "name": "w8ves（原yoyu）",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2021.03.11",
+          "year": 2021,
+          "status": "2021.03.11",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2021
+    },
+    {
+      "id": "xssr",
+      "name": "x-ssr",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2021.10",
+          "year": 2021,
+          "status": "2021.10",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2021
+    },
+    {
+      "id": "1ms衫缇网络世葵",
+      "name": "1ms/衫缇网络/世葵",
+      "aliases": [],
+      "events": [
+        {
+          "date": "",
+          "year": 2020,
+          "status": "historical-unavailable",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2020
+    },
+    {
+      "id": "928net",
+      "name": "928Net",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2020.07",
+          "year": 2020,
+          "status": "2020.07",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2020
+    },
+    {
+      "id": "安慕希网络加速布丁",
+      "name": "安慕希网络加速/布丁",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2020.09",
+          "year": 2020,
+          "status": "2020.09",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2020
+    },
+    {
+      "id": "纯甄",
+      "name": "纯甄",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2020.09",
+          "year": 2020,
+          "status": "2020.09",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2020
+    },
+    {
+      "id": "极游",
+      "name": "极游",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2020.03",
+          "year": 2020,
+          "status": "2020.03",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2020
+    },
+    {
+      "id": "喵帕斯",
+      "name": "喵帕斯",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2020.07",
+          "year": 2020,
+          "status": "2020.07",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2020
+    },
+    {
+      "id": "讯云",
+      "name": "讯云",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2020.10",
+          "year": 2020,
+          "status": "2020.10",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2020
+    },
+    {
+      "id": "云际互联",
+      "name": "云际互联",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2020.07",
+          "year": 2020,
+          "status": "2020.07",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2020
+    },
+    {
+      "id": "贼船",
+      "name": "贼船",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2020.6",
+          "year": 2020,
+          "status": "2020.6",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2020
+    },
+    {
+      "id": "tempestrixcloud",
+      "name": "Tempest（Rixcloud）",
+      "aliases": [],
+      "events": [
+        {
+          "date": "2020.12.02",
+          "year": 2020,
+          "status": "2020.12.02",
+          "summary": "历史社区记录",
+          "scope": "historical"
+        }
+      ],
+      "sources": [
+        {
+          "id": "limbopro",
+          "label": "Paolujichang 历史档案",
+          "url": "https://github.com/limbopro/Paolujichang",
+          "asOf": "2026-09-14",
+          "updated": "2026-09-14",
+          "kind": "2020–2025 社区风险档案"
+        }
+      ],
+      "eventCount": 1,
+      "latestYear": 2020
+    }
+  ]
+}
