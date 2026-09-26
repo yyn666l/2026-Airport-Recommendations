@@ -14,36 +14,36 @@
 | 机场 | 来源数量 | 套餐信息（来源记录） | 线路说明 | 历史测试日期／来源评分 |
 |---|---:|---|---|---|
 | [二猫云](https://www.jichangyyds.com/brands/ermaoyun/) | 3 | ¥20<br>¥89/年起<br>优惠码：ermao888 | IEPL/IPLC专线 | 2026-07-21 21:19<br>4.2 / 5（5 项计分） |
-| [飞猫云](https://www.jichangyyds.com/brands/feimaoyun/) | 3 | ¥25<br>¥8/月 50GB起<br>优惠码：flycat888 | IPLC/BGP-IEPL页面口径 | 2026-07-21 21:32<br>3.7 / 5（5 项计分） |
-| [光年梯](https://www.jichangyyds.com/brands/guangnianti/) | 3 | ¥18<br>¥18/月起 | IEPL专线 | 2026-07-19 21:36<br>4.4 / 5（5 项计分） |
+| [飞猫云](https://vip02.flyingcat.work/) | 3 | ¥25<br>¥8/月 50GB起<br>优惠码：flycat888 | IPLC/BGP-IEPL页面口径 | 2026-07-21 21:32<br>3.7 / 5（5 项计分） |
+| [光年梯](https://gnt01.lightyear.club/) | 3 | ¥18<br>¥18/月起 | IEPL专线 | 2026-07-19 21:36<br>4.4 / 5（5 项计分） |
 | [光速云](https://www.jichangyyds.com/brands/guangsuyun/) | 3 | ¥17<br>¥17/月起<br>优惠码：AMM | IPLC专线 | 2026-07-20 21:24<br>4.3 / 5（5 项计分） |
-| [极连云](https://www.jichangyyds.com/brands/jilianyun/) | 3 | ¥18<br>¥14.4/月起 | IPLC/IEPL专线 | 2026-07-21 21:12<br>4.3 / 5（5 项计分） |
+| [极连云](https://web01.hyperlink.mobi/) | 3 | ¥18<br>¥14.4/月起 | IPLC/IEPL专线 | 2026-07-21 21:12<br>4.3 / 5（5 项计分） |
 | [可信云](https://www.jichangyyds.com/brands/kexinyun/) | 3 | ¥15<br>¥96/年 60GB/月起<br>优惠码：KEXIN85 | IPLC/IEPL专线 | 2026-07-20 21:15<br>4.5 / 5（5 项计分） |
-| [快狸](https://www.jichangyyds.com/brands/kuaili/) | 3 | ¥15<br>¥96/年起（折后）<br>优惠码：theo66 | IEPL专线 | 2026-07-19 21:28<br>4.4 / 5（5 项计分） |
-| [全球云](https://www.jichangyyds.com/brands/quanqiuyun/) | 3 | ¥20<br>¥20/月起（年付¥99起） | IPLC/IEPL专线 | 2026-07-20 21:28<br>3.5 / 5（5 项计分） |
+| [快狸](https://01.kuailicloudt.cc/) | 3 | ¥15<br>¥96/年起（折后）<br>优惠码：theo66 | IEPL专线 | 2026-07-19 21:28<br>4.4 / 5（5 项计分） |
+| [全球云](https://globalyun.cc/) | 3 | ¥20<br>¥20/月起（年付¥99起） | IPLC/IEPL专线 | 2026-07-20 21:28<br>3.5 / 5（5 项计分） |
 | [速界](https://www.jichangyyds.com/brands/sujie/) | 3 | ¥15<br>¥90/年起（折前）<br>优惠码：sj888 | 全 IPLC 专线 | 2026-07-19 21:45<br>4.5 / 5（5 项计分） |
 | [唯兔云](https://www.jichangyyds.com/brands/weituyun/) | 3 | ¥19.9<br>¥6.6/月起（年付）<br>优惠码：rabbit | IPLC专线 | 2026-07-19 21:18<br>4.1 / 5（5 项计分） |
 | [星岛梦](https://www.jichangyyds.com/brands/xingdaomeng/) | 3 | ¥25<br>¥25/月 150GB起（年付¥96/60GB）<br>优惠码：nmw888 | IEPL/IPLC+BGP页面口径 | 2026-07-21 21:48<br>4.0 / 5（5 项计分） |
-| [一翻云](https://www.jichangyyds.com/brands/yifanyun/) | 3 | ¥20<br>¥25/月起（年付¥100/年）<br>优惠码：1FLYYUN | IEPL专线 | 2026-07-21 21:15<br>4.4 / 5（5 项计分） |
-| [宇宙云](https://www.jichangyyds.com/brands/yuzhouyun/) | 3 | ¥25<br>¥12.5/月起（年付¥96/年）<br>优惠码：YUZHOU553 | IEPL专线 | 2026-07-20 21:08<br>4.2 / 5（5 项计分） |
+| [一翻云](https://yifanyun.xyz/) | 3 | ¥20<br>¥25/月起（年付¥100/年）<br>优惠码：1FLYYUN | IEPL专线 | 2026-07-21 21:15<br>4.4 / 5（5 项计分） |
+| [宇宙云](https://universeyun.cc/) | 3 | ¥25<br>¥12.5/月起（年付¥96/年）<br>优惠码：YUZHOU553 | IEPL专线 | 2026-07-20 21:08<br>4.2 / 5（5 项计分） |
 | [edgenova](https://www.jichangyyds.com/brands/edgenova/) | 3 | ¥15<br>¥86/年起（优惠后）<br>优惠码：EN888 | IEPL专线 | 2026-07-21 21:40<br>4.5 / 5（5 项计分） |
-| [U1S1](https://www.jichangyyds.com/brands/u1s1/) | 3 | ¥20<br>¥18.8/月起<br>优惠码：U1S1 | 中转专线 | 2026-07-19 21:35<br>3.9 / 5（5 项计分） |
+| [U1S1](https://baidu01.u1s1cloud.cc/) | 3 | ¥20<br>¥18.8/月起<br>优惠码：U1S1 | 中转专线 | 2026-07-19 21:35<br>3.9 / 5（5 项计分） |
 | [微风网络](https://www.jichangyyds.com/brands/weifengwangluo/) | 3 | ¥27<br>¥137/年 100GB起<br>优惠码：weifeng90 | IPLC页面口径 | ❌ 无<br>索引收录 |
-| [极速Cloud](https://www.jichangyyds.com/brands/jisucloud/) | 2 | ¥30<br>¥15/月起<br>优惠码：ikds88 | CN2 GIA/AS9929/CMIN2 | 数据不足，不给分 |
-| [Firefly](https://www.jichangyyds.com/brands/firefly/) | 2 | ¥25<br>8 元/月 60GB(年付 96 元)<br>优惠码：firefly | — | 数据不足，不给分 |
+| [极速Cloud](https://js.jisucloud8.com/) | 2 | ¥30<br>¥15/月起<br>优惠码：ikds88 | CN2 GIA/AS9929/CMIN2 | 数据不足，不给分 |
+| [Firefly](https://umi.fireflychat.net/) | 2 | ¥25<br>8 元/月 60GB(年付 96 元)<br>优惠码：firefly | — | 数据不足，不给分 |
 | [FlyV](https://www.jichangyyds.com/brands/flyv/) | 2 | ¥25<br>8.3 元/月 65GB(年付 99 元)<br>优惠码：fly20 | — | 数据不足，不给分 |
-| [sogo云](https://www.jichangyyds.com/brands/sogoyun/) | 2 | ¥25<br>25 元/月 150GB<br>优惠码：SOGO88 | — | 2026-07-21 21:52<br>4.1 / 5（5 项计分） |
+| [sogo云](https://sogocloud.cc/) | 2 | ¥25<br>25 元/月 150GB<br>优惠码：SOGO88 | — | 2026-07-21 21:52<br>4.1 / 5（5 项计分） |
 | 69云 | 2 | ¥13.36/月起<br>¥9.9 / 月 | 公网中转/中继<br>专线中转 | 索引收录<br>对比表收录 |
 | [跨界云](https://www.jichangyyds.com/brands/kuajieyun/) | 2 | ¥20<br>8 元/月 60GB(年付 96 元)<br>优惠码：kuajie | — | ⚠️ 仅第三方报告<br>📋 套餐已核验 |
 | [浪网](https://www.jichangyyds.com/brands/langwang/) | 2 | ¥30<br>9.9 元/月 80GB(年付 119 元)<br>优惠码：lw88 | — | ❌ 无<br>📋 套餐已核验 |
-| [灵动云](https://www.jichangyyds.com/brands/lingdongyun/) | 2 | ¥20<br>8.3 元/月 70GB(年付 99 元)<br>优惠码：ld88 | — | ❌ 无<br>✅ 站长实测 |
+| [灵动云](https://trevona.lingdongyunttt.homes/) | 2 | ¥20<br>8.3 元/月 70GB(年付 99 元)<br>优惠码：ld88 | — | ❌ 无<br>✅ 站长实测 |
 | 灵猫网络 | 2 | ¥85/年 45GB起<br>7.1 元/月 45GB(年付 85 元) | IPLC页面口径 | 索引收录<br>📋 套餐已核验 |
 | [暮光加速](https://www.jichangyyds.com/brands/muguang/) | 2 | ¥20<br>9.1 元/月 70GB(年付 109 元)<br>优惠码：mm88 | — | ❌ 无<br>📋 套餐已核验 |
-| [拼好连](https://www.jichangyyds.com/brands/pinhaolian/) | 2 | ¥9.9<br>¥9.90/月起 | BGP/IEPL口径 | ❌ 无<br>索引收录 |
-| [闪跃](https://www.jichangyyds.com/brands/shanyue/) | 2 | ¥24<br>8 元/月 60GB(年付 96 元)<br>优惠码：shanyue | — | ⚠️ 仅第三方报告<br>📋 套餐已核验 |
-| [梯子云](https://www.jichangyyds.com/brands/tiziyun/) | 2 | ¥25<br>7.4 元/月 60GB(年付 89 元)<br>优惠码：tiziyun | — | ❌ 无<br>📋 套餐已核验 |
+| [拼好连](https://runwayhz.com/) | 2 | ¥9.9<br>¥9.90/月起 | BGP/IEPL口径 | ❌ 无<br>索引收录 |
+| [闪跃](https://flashleap.homes/) | 2 | ¥24<br>8 元/月 60GB(年付 96 元)<br>优惠码：shanyue | — | ⚠️ 仅第三方报告<br>📋 套餐已核验 |
+| [梯子云](https://yingsu.top/) | 2 | ¥25<br>7.4 元/月 60GB(年付 89 元)<br>优惠码：tiziyun | — | ❌ 无<br>📋 套餐已核验 |
 | [无忧链接](https://www.jichangyyds.com/brands/wuyoulianjie/) | 2 | ¥19<br>6.6 元/月 40GB(年付 79 元)<br>优惠码：wuyou666 | — | ❌ 无<br>📋 套餐已核验 |
-| [隐形人](https://www.jichangyyds.com/brands/yinxingren/) | 2 | ¥24<br>9.1 元/月 80GB(年付 109 元)<br>优惠码：yxr888 | — | ❌ 无<br>📋 套餐已核验 |
+| [隐形人](https://varnexa.invisiblettt.homes/) | 2 | ¥24<br>9.1 元/月 80GB(年付 109 元)<br>优惠码：yxr888 | — | ❌ 无<br>📋 套餐已核验 |
 
 ## 单一来源收录服务（76）
 
