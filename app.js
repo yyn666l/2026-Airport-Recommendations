@@ -14,8 +14,8 @@ const escapeHtml = (value = "") => String(value).replace(/[&<>'"]/g, (char) => (
 const normalize = (value = "") => String(value).toLowerCase().normalize("NFKC").replace(/\s+/g, "");
 
 function statusMeta(record) {
-  if (record.status === "conflict-current") return { label: "近期来源冲突", className: "conflict" };
-  if (record.status === "conflict-history") return { label: "同名历史记录", className: "conflict" };
+  if (record.status === "conflict-current") return { label: "近期状态存在差异", className: "conflict" };
+  if (record.status === "conflict-history") return { label: "历史同名记录待核验", className: "conflict" };
   if (record.status === "candidate-multi") return { label: `${record.sourceCount} 份来源`, className: "" };
   return { label: "单一来源", className: "single" };
 }
@@ -45,12 +45,12 @@ function chipMarkup(items) {
 function testMarkup(record) {
   const test = record.details?.test;
   if (!test?.collectedAt) return "";
-  return `<div class="test-note">历史样本 ${escapeHtml(test.collectedAt)} · ${escapeHtml(test.entry || "入口未记录")}</div>`;
+  return `<div class="test-note">历史测试日期：${escapeHtml(test.collectedAt)} · ${escapeHtml(test.entry || "测试入口未记录")}</div>`;
 }
 
 function cardMarkup(record) {
   const meta = statusMeta(record);
-  const aliases = record.aliases?.length ? `<p class="aliases">亦见：${escapeHtml(record.aliases.join(" / "))}</p>` : "";
+  const aliases = record.aliases?.length ? `<p class="aliases">其他名称：${escapeHtml(record.aliases.join(" / "))}</p>` : "";
   const primaryPrice = (record.offers || []).find((item) => item.price)?.price || "待复核";
   const chips = [
     ...compactUnique(record.lineTypes, 2),
@@ -64,7 +64,7 @@ function cardMarkup(record) {
     <div class="chip-row">${chipMarkup(chips)}</div>
     ${testMarkup(record)}
     <div class="card-spacer"></div>
-    <div class="card-footer"><span>${record.unlock?.length ? `已列 ${record.unlock.length} 项解锁口径` : "解锁待复核"}</span><span class="source-dots">${record.sources.map((source) => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer" title="${escapeHtml(source.label)}">${escapeHtml(source.label)}</a>`).join("")}</span></div>
+    <div class="card-footer"><span>${record.unlock?.length ? `收录 ${record.unlock.length} 项服务访问说明` : "服务访问情况待核验"}</span><span class="source-dots">${record.sources.map((source) => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer" title="${escapeHtml(source.label)}">${escapeHtml(source.label)}</a>`).join("")}</span></div>
   </article>`;
 }
 
@@ -93,12 +93,12 @@ function filteredCatalog() {
 function renderCatalog(resetLimit = false) {
   if (resetLimit) state.catalogLimit = 24;
   const records = filteredCatalog();
-  $("#catalog-count").textContent = `找到 ${records.length} 家 · 当前显示 ${Math.min(records.length, state.catalogLimit)} 家`;
+  $("#catalog-count").textContent = `检索结果：${records.length} 项 · 当前显示 ${Math.min(records.length, state.catalogLimit)} 项`;
   const grid = $("#catalog-grid");
   grid.innerHTML = records.length ? records.slice(0, state.catalogLimit).map(cardMarkup).join("") : $("#empty-template").innerHTML;
   const more = $("#catalog-more");
   more.hidden = records.length <= state.catalogLimit;
-  more.textContent = `继续显示（剩余 ${Math.max(0, records.length - state.catalogLimit)} 家）`;
+  more.textContent = `加载更多（剩余 ${Math.max(0, records.length - state.catalogLimit)} 项）`;
 }
 
 function riskMatchesScope(record, scope) {
@@ -120,11 +120,20 @@ function filteredRisk() {
   });
 }
 
+function formalStatus(value) {
+  return String(value || "").replace(/[🔴🟠🟢]/gu, "").trim()
+    .replace(/已跑路/g, "已停运（来源报告）")
+    .replace(/跑路预警/g, "停运风险预警")
+    .replace(/跑路/g, "停运或失联（来源报告）")
+    .replace(/客服态度及其恶劣/g, "客户服务投诉")
+    .replace(/\//g, "／");
+}
+
 function riskMarkup(record) {
   const years = [...new Set(record.events.map((event) => event.year).filter(Boolean))].sort((a, b) => b - a);
   const events = record.events.slice(0, 3).map((event) => {
     const recovered = /恢复|撤回/.test(`${event.status} ${event.summary}`);
-    return `<div class="risk-event ${recovered ? "recovered" : ""}"><b>${escapeHtml(event.date || event.year || "日期待核")}</b> · ${escapeHtml(event.status)}${event.summary ? ` — ${escapeHtml(event.summary)}` : ""}</div>`;
+    return `<div class="risk-event ${recovered ? "recovered" : ""}"><b>${escapeHtml(event.date || event.year || "日期待核验")}</b> · ${escapeHtml(formalStatus(event.status))}${event.summary ? ` — ${escapeHtml(event.summary)}` : ""}</div>`;
   }).join("");
   return `<article class="risk-item">
     <div><h3>${escapeHtml(record.name)}</h3>${record.aliases?.length ? `<small>${escapeHtml(record.aliases.join(" / "))}</small>` : ""}</div>
@@ -137,11 +146,11 @@ function riskMarkup(record) {
 function renderRisk(resetLimit = false) {
   if (resetLimit) state.riskLimit = 30;
   const records = filteredRisk();
-  $("#risk-count").textContent = `找到 ${records.length} 个主体 · ${records.reduce((total, record) => total + record.events.length, 0)} 条事件`;
+  $("#risk-count").textContent = `检索结果：${records.length} 个主体 · ${records.reduce((total, record) => total + record.events.length, 0)} 条事件`;
   $("#risk-list").innerHTML = records.length ? records.slice(0, state.riskLimit).map(riskMarkup).join("") : $("#empty-template").innerHTML;
   const more = $("#risk-more");
   more.hidden = records.length <= state.riskLimit;
-  more.textContent = `继续显示（剩余 ${Math.max(0, records.length - state.riskLimit)} 个主体）`;
+  more.textContent = `加载更多（剩余 ${Math.max(0, records.length - state.riskLimit)} 个主体）`;
 }
 
 function renderSources() {
@@ -196,7 +205,7 @@ async function init() {
     activateTab(initialTab);
   } catch (error) {
     console.error(error);
-    $("#catalog-count").textContent = "数据加载失败，请刷新页面或到 GitHub 查看 JSON 文件。";
+    $("#catalog-count").textContent = "资料暂时无法加载，请刷新页面或前往 GitHub 查阅数据文件。";
     $("#catalog-grid").innerHTML = `<div class="empty-state"><b>数据加载失败</b><p>${escapeHtml(error.message)}</p></div>`;
   }
 }
