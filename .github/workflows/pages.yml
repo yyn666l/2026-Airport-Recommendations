@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths:
+      - "README.md"
       - "index.html"
       - "404.html"
       - "styles.css"
