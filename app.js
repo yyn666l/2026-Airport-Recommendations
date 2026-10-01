@@ -34,8 +34,17 @@ function offerMarkup(record) {
   if (!offers.length) return "<p>价格待复核</p>";
   return offers.map((offer) => {
     const source = record.sources.find((item) => item.id === offer.source);
-    return `<p><b>${escapeHtml(offer.price)}</b> <span>· ${escapeHtml(source?.label || offer.source)}</span></p>`;
+    return `<p><b>${escapeHtml(offer.price)}</b> <span>· ${escapeHtml(source?.label || offer.source)}</span>${offer.coupon ? ` · 优惠码：${escapeHtml(offer.coupon)}` : ""}${offer.conditions ? `<br><small>${escapeHtml(offer.conditions)}</small>` : ""}</p>`;
   }).join("");
+}
+
+function reviewMarkup(record) {
+  if (!record.review) return "";
+  return `<div class="test-note">资料复核 ${escapeHtml(record.review.checkedOn)}：${escapeHtml(record.review.note)}</div>`;
+}
+
+function entryMarkup(record) {
+  return (record.entryLinks || []).map((entry) => `<p><a href="${escapeHtml(entry.url)}" target="_blank" rel="noreferrer">入口／资料 ↗</a> · 运营主体待核验</p>`).join("");
 }
 
 function chipMarkup(items) {
@@ -63,6 +72,8 @@ function cardMarkup(record) {
     <div class="offer-list">${offerMarkup(record)}</div>
     <div class="chip-row">${chipMarkup(chips)}</div>
     ${testMarkup(record)}
+    ${reviewMarkup(record)}
+    ${entryMarkup(record)}
     <div class="card-spacer"></div>
     <div class="card-footer"><span>${record.unlock?.length ? `收录 ${record.unlock.length} 项服务访问说明` : "服务访问情况待核验"}</span><span class="source-dots">${record.sources.map((source) => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer" title="${escapeHtml(source.label)}">${escapeHtml(source.label)}</a>`).join("")}</span></div>
   </article>`;
@@ -139,6 +150,7 @@ function riskMarkup(record) {
     <div><h3>${escapeHtml(record.name)}</h3>${record.aliases?.length ? `<small>${escapeHtml(record.aliases.join(" / "))}</small>` : ""}</div>
     <div class="risk-years">${years.join(" · ")}</div>
     <div class="risk-events">${events}${record.events.length > 3 ? `<small>另有 ${record.events.length - 3} 条历史事件</small>` : ""}</div>
+    ${reviewMarkup(record)}
     <div class="risk-source">${record.sources.map((source) => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.label)} ↗</a>`).join("")}</div>
   </article>`;
 }
@@ -154,7 +166,7 @@ function renderRisk(resetLimit = false) {
 }
 
 function renderSources() {
-  $("#source-list").innerHTML = state.sources.map((source) => `<article class="source-item"><a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(source.label)} ↗</strong><span>${escapeHtml(source.kind)}</span></a><time>${escapeHtml(source.asOf)}</time></article>`).join("");
+  $("#source-list").innerHTML = state.sources.map((source) => `<article class="source-item"><a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer"><strong>${escapeHtml(source.label)} ↗</strong><span>${escapeHtml(source.kind)}</span></a><time>资料：${escapeHtml(source.asOf)} · 来源更新：${escapeHtml(source.updated)}${source.repositoryCheckedOn ? ` · 仓库检查：${escapeHtml(source.repositoryCheckedOn)}` : ""}</time></article>`).join("");
 }
 
 function populateFilters() {
